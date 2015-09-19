@@ -1,0 +1,47 @@
+{
+  "name": "polomundial.com.ar",
+  "version": "0.1.0",
+  "description": "polomundial.com.ar's site on Panels",
+  "main": "index.js",
+  "scripts": {
+    "build": ".bin/build",
+    "clean": ".bin/clean",
+    "compile": ".bin/compile",
+    "pacpan": ".bin/pacpan",
+    "pacpan:watch": ".bin/pacpan-watch",
+    "push": ".bin/push",
+    "test": ".bin/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UXtemple/polomundial.com.ar.git"
+  },
+  "keywords": [
+    "polomundial.com.ar",
+    "panels",
+    "UXtemple"
+  ],
+  "author": "UXtemple <hi@uxtemple.com>",
+  "contributors": [
+    "Darío Javier Cravero <dario@uxtemple.com>",
+    "Tom Parandyk <tom@uxtemple.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UXtemple/polomundial.com.ar/issues"
+  },
+  "homepage": "https://github.com/UXtemple/polomundial.com.ar#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babelify": "^6.3.0",
+    "browserify": "^11.1.0",
+    "exorcist": "^0.4.0",
+    "uglify-js": "^2.4.24"
+  },
+  "dependencies": {
+    "panels-ui": "^0.6.0",
+    "redux": "^3.0.0",
+    "redux-logger": "^1.0.8",
+    "redux-thunk": "^1.0.0"
+  }
+}

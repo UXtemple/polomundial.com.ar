@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+APP=`node -e "console.log(require('./package.json').name);"`
+BIN=node_modules/.bin
+DST=${1:-./pack/$APP}
+SRC=${2:-.}
+
+echo "[pacpan] packaging panels app ${APP} at '${SRC}'..."
+
+mkdir -p ./pack
+
+$BIN/browserify --debug --verbose \
+  --external panels-ui \
+  --external react \
+  --external react-redux \
+  --external redux \
+  --external redux-logger \
+  --external redux-thunk \
+  --ignore **/node_modules/**,**/__tests__/** \
+  --require $SRC/index:$APP \
+  --extension .es6 \
+  --transform babelify | \
+  $BIN/exorcist $DST.js.map > $DST.js &&
+  $BIN/uglifyjs --verbose \
+    --compress \
+    --mangle \
+    --screw-ie8 \
+    --in-source-map $DST.js.map \
+    --source-map $DST.min.js.map $DST.js > $DST.min.js
+
+echo "[pacpan] done"
+ls -lha $DST.*
