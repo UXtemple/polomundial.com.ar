@@ -52,7 +52,9 @@ const FIXED = {
   byId: {
     'alegria': {
       id: 'alegria',
-      image: '/alegria.jpg',
+      images: {
+        card: '/teams/alegria/card.jpg'
+      },
       name: 'Alegría',
       players: [
         'alegria-cristian-laprida',
@@ -70,7 +72,9 @@ const FIXED = {
     },
     'la-dolfina': {
       id: 'la-dolfina',
-      image: '/la-dolfina.jpg',
+      images: {
+        card: '/teams/la-dolfina/card.jpg'
+      },
       name: 'La Dolfina',
       handicap: 35,
       titlesByTournamentId: {
@@ -82,7 +86,9 @@ const FIXED = {
     },
     'chapaleufu': {
       id: 'chapaleufu',
-      image: '/chapaleufu.jpg',
+      images: {
+        card: '/teams/chapaleufu/card.jpg'
+      },
       name: 'Chapaleufu',
       handicap: 34,
       titlesByTournamentId: {

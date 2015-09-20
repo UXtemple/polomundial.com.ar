@@ -1,2 +1,3 @@
 export Home from './home/component';
-export Pattern from './pattern/component';
+export Group from './group/component';
+export Tournament from './tournament/component';

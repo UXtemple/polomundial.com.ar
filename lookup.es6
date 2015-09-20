@@ -1,3 +1,4 @@
 export default [
-  '/:tournamentId'
+  '/:tournamentId',
+  '/:tournamentId/:groupRef'
 ];

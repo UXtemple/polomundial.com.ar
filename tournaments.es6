@@ -1,15 +1,17 @@
 const FIXED = {
   groupsById: {
-    'tortugas-a': {
+    'tortugas-grupo-a': {
+      ref: 'grupo-a',
       name: 'Grupo A',
-      sponsoredBy: 'sancor-seguros',
+      sponsorId: 'sancor-seguros',
       teams: [
         'la-dolfina',
         'alegria',
         'chapaleufu'
       ]
     },
-    'tortugas-b': {
+    'tortugas-grupo-b': {
+      ref: 'grupo-b',
       name: 'Grupo B',
       sponsoredBy: 'prevencion-salud',
       teams: [
@@ -27,6 +29,12 @@ const FIXED = {
       phone: '02320 49-1262'
     }
   },
+  sponsorsById: {
+    'sancor-seguros': {
+      image: '/logos/sancor-seguros-colour.png',
+      name: 'Sancor Seguros'
+    }
+  },
   byId: {
     'tortugas': {
       id: 'tortugas',
@@ -34,17 +42,18 @@ const FIXED = {
       name: 'Tortugas',
       clubId: 'tortugas',
       groups: [
-        'tortugas-a',
-        'tortugas-b'
-      ]
+        'tortugas-grupo-a',
+        'tortugas-grupo-b'
+      ],
+      sponsorId: 'sancor-seguros'
     },
     'hurlingham': {
       id: 'hurlingham',
       image: '/hurlingham.jpg',
       name: 'Hurlingham',
       groups: [
-        'hurlingham-a',
-        'hurlingham-b'
+        'hurlingham-grupo-a',
+        'hurlingham-grupo-b'
       ]
     },
     'palermo': {
@@ -52,8 +61,8 @@ const FIXED = {
       image: '/palermo.jpg',
       name: 'Palermo',
       groups: [
-        'palermo-a',
-        'palermo-b'
+        'palermo-grupo-a',
+        'palermo-grupo-b'
       ]
     }
   },

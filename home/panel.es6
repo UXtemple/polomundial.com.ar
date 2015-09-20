@@ -1,8 +1,11 @@
 export default {
   background(state, props) {
-    return {};
+    return {
+      image: '/background.jpg',
+      size: 'cover'
+    };
   },
   props: {},
-  title: 'Hugru',
+  title: 'Polo Mundial',
   type: 'Home'
 };

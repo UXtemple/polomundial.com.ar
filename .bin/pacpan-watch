@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
 
-# TODO Make browserify node script
-
-APP=$1
+APP=`node -e "console.log(require('./package.json').name);"`
 BIN=node_modules/.bin
-SRC=${2:-./playground/$1}
+DST=${1:-../panels/dist/$APP}
+SRC=${2:-.}
 
-echo "[pacpan] constantly packaging app ${APP} at ${SRC}..."
+echo "[pacpan] constantly packaging app ${APP} at ${SRC} to ${DST}..."
 
 mkdir -p playground
 
@@ -21,4 +20,4 @@ $BIN/watchify --debug --verbose \
   --require $SRC/index:$APP \
   --extension .es6 \
   --transform babelify \
-  --outfile playground/$APP.js
+  --outfile $DST.js
