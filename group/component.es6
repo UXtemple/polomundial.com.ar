@@ -38,7 +38,7 @@ export const Group = props => {
 const style = {
   action: {
     active: {
-      borderWidth: 1,
+      borderWidth: 3,
       borderStyle: 'solid',
       borderColor: BLUE
     },

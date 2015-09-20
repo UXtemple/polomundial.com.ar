@@ -3,7 +3,7 @@ const FIXED = {
     'alegria-cristian-laprida': {
       name: 'Cristian Laprida (h)',
       number: 1,
-      photo: '/alegria/cristian-laprida.jpg',
+      photo: '/teams/alegria/cristian-laprida.png',
       handicap: 8,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -15,7 +15,7 @@ const FIXED = {
     'alegria-hilario-ulloa': {
       name: 'Hilario Ulloa',
       number: 2,
-      photo: '/alegria/hilario-ulloa.jpg',
+      photo: '/teams/alegria/hilario-ulloa.png',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -27,7 +27,7 @@ const FIXED = {
     'alegria-lucas-monteverde': {
       name: 'Lucas Monteverde (h)',
       number: 3,
-      photo: '/alegria/lucas-monteverde.jpg',
+      photo: '/teams/alegria/lucas-monteverde.png',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -39,7 +39,7 @@ const FIXED = {
     'alegria-frederick-mannix': {
       name: 'Frederick Mannix (h)',
       number: 4,
-      photo: '/alegria/frederick-mannix.jpg',
+      photo: '/teams/alegria/frederick-mannix.png',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -51,9 +51,11 @@ const FIXED = {
   },
   byId: {
     'alegria': {
+      colour: 'PURPLE',
       id: 'alegria',
       images: {
-        card: '/teams/alegria/card.jpg'
+        card: '/teams/alegria/card.jpg',
+        logo: '/teams/alegria/logo.jpg'
       },
       name: 'Alegría',
       players: [
