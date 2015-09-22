@@ -12,7 +12,7 @@ const FIXED = {
       }
     },
     'tortugas-las-monjitas-la-aguada': {
-      heading: 'Miercoles 30/09 - Fecha 2 - Zona B - 16:00',
+      heading: 'Miércoles 30/09 - Fecha 2 - Zona B - 16:00',
       team1: {
         id: 'las-monjitas',
         score: 0
@@ -58,7 +58,7 @@ const FIXED = {
     'tortugas-ellerstina-ganador-partido-2': {
       heading: 'Domingo 11/10 - Fecha 6 - Zona B - 16:00',
       team1: {
-        id: 'Ellerstina',
+        id: 'ellerstina',
         score: 0
       },
       team2: {
@@ -81,7 +81,7 @@ const FIXED = {
   byTournamentId: {
     'tortugas': [
       'tortugas-alegria-chapaleufu',
-      'tortugas-las-monjitas-la-aguada'
+      'tortugas-las-monjitas-la-aguada',
       'tortugas-la-dolfina-perdedor-partido-1',
       'tortugas-ellerstina-perdedor-partido-2',
       'tortugas-la-dolfina-ganador-partido-1',
