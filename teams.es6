@@ -60,10 +60,10 @@ const FIXED = {
       },
       tripleCrownTitles: 0
     },
-    'la-aguada-guillermo-terrera-(h)': {
+    'la-aguada-guillermo-terrera': {
       name: 'Guillermo Terrera (h)',
       number: 2,
-      photo: '/teams/la-aguada/guillermo-terrera-(h).png',
+      photo: '/teams/la-aguada/guillermo-terrera.png',
       handicap: 8,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -72,10 +72,10 @@ const FIXED = {
       },
       tripleCrownTitles: 0
     },
-    'la-aguada-guillermo-caset-(h)': {
+    'la-aguada-guillermo-caset': {
       name: 'Guillermo Caset (h)',
       number: 3,
-      photo: '/teams/la-aguada/guillermo-caset-(h).png',
+      photo: '/teams/la-aguada/guillermo-caset.png',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -84,10 +84,10 @@ const FIXED = {
       },
       tripleCrownTitles: 0
     },
-    'la-aguada-ignacio-novillo-astrada-(h)': {
+    'la-aguada-ignacio-novillo-astrada': {
       name: 'Ignacio Novillo Astrada (h)',
       number: 4,
-      photo: '/teams/la-aguada/ignacio-novillo-astrada-(h).png',
+      photo: '/teams/la-aguada/ignacio-novillo-astrada.png',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 2,
@@ -96,10 +96,10 @@ const FIXED = {
       },
       tripleCrownTitles: 5
     },
-    'la-dolfina-adolfo-cambiaso-(h)': {
+    'la-dolfina-adolfo-cambiaso': {
       name: 'Adolfo Cambiaso (h)',
       number: 1,
-      photo: '/teams/la-dolfina/adolfo-cambiaso-(h).png',
+      photo: '/teams/la-dolfina/adolfo-cambiaso.png',
       handicap: 10,
       titlesByTournamentId: {
         'tortugas': 5,
@@ -108,10 +108,10 @@ const FIXED = {
       },
       tripleCrownTitles: 27
     },
-    'la-dolfina-david-stirling-(h)': {
+    'la-dolfina-david-stirling': {
       name: 'David Stirling (h)',
       number: 2,
-      photo: '/teams/la-dolfina/david-stirling-(h).png',
+      photo: '/teams/la-dolfina/david-stirling.png',
       handicap: 10,
       titlesByTournamentId: {
         'tortugas': 2,
@@ -156,10 +156,10 @@ const FIXED = {
       },
       tripleCrownTitles: 0
     },
-    'las-monjitas-sebastián-merlos': {
+    'las-monjitas-sebastian-merlos': {
       name: 'Sebastián Merlos',
       number: 2,
-      photo: '/teams/las-monjitas/sebastián-merlos.png',
+      photo: '/teams/las-monjitas/sebastian-merlos.png',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 1,
@@ -171,7 +171,7 @@ const FIXED = {
     'las-monjitas-eduardo-novillo-astrada': {
       name: 'Eduardo Novillo Astrada (h)',
       number: 3,
-      photo: '/teams/las-monjitas/eduardo-novillo-astrada-(h).png',
+      photo: '/teams/las-monjitas/eduardo-novillo-astrada.png',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 3,
@@ -216,7 +216,7 @@ const FIXED = {
       },
       tripleCrownTitles: 3
     },
-    'ellerstina-gonzalo-pieres-(h)': {
+    'ellerstina-gonzalo-pieres': {
       name: 'Gonzalo Pieres (h)',
       number: 3,
       photo: '/teams/ellerstina/gonzalo-pieres.png',
@@ -240,10 +240,10 @@ const FIXED = {
       },
       tripleCrownTitles: 14
     },
-    'chapaleufu-alberto-heguy-(h)': {
+    'chapaleufu-alberto-heguy': {
       name: 'Alberto Heguy (h)',
       number: 1,
-      photo: '/teams/chapaleufu/alberto-heguy-(h).png',
+      photo: '/teams/chapaleufu/alberto-heguy.png',
       handicap: 8,
       titlesByTournamentId: {
         'tortugas': 7,
@@ -279,7 +279,7 @@ const FIXED = {
     'chapaleufu-eduardo-heguy': {
       name: 'Eduardo Heguy',
       number: 4,
-      photo: '/teams/chapaleufu/eduardo-heguy-(h).png',
+      photo: '/teams/chapaleufu/eduardo-heguy.png',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 8,
@@ -301,8 +301,8 @@ const FIXED = {
       players: [
         'la-aguada-agustin-merlos',
         'la-aguada-guillermo-terrera',
-        'la-aguada-guillermo-caset-(h)',
-        'la-aguada-ignacio-novillo-astrada-(h)'
+        'la-aguada-guillermo-caset',
+        'la-aguada-ignacio-novillo-astrada'
       ],
       handicap: 34,
       titlesByTournamentId: {
@@ -322,8 +322,8 @@ const FIXED = {
       name: 'Las Monjitas',
       players: [
         'las-monjitas-ignacio-toccalino',
-        'las-monjitas-sebastián-merlos',
-        'las-monjitas-eduardo-novillo-astrada-(h)',
+        'las-monjitas-sebastian-merlos',
+        'las-monjitas-eduardo-novillo-astrada',
         'las-monjitas-alejandro-novillo-astrada'
       ],
       handicap: 35,
@@ -335,7 +335,7 @@ const FIXED = {
       tripleCrownTitles: 0
     },
     'ellerstina': {
-      colour: 'BLACK',
+      colour: 'DARK_GREY',
       id: 'ellerstina',
       images: {
         card: '/teams/ellerstina/card.jpg',
@@ -345,7 +345,7 @@ const FIXED = {
       players: [
         'ellerstina-pablo-pieres',
         'ellerstina-nicolas-pieres',
-        'ellerstina-gonzalo-gonzalo-(h)',
+        'ellerstina-gonzalo-pieres',
         'ellerstina-facundo-pieres'
       ],
       handicap: 39,
@@ -365,7 +365,7 @@ const FIXED = {
       },
       name: 'Chapaleufu',
       players: [
-        'chapaleufu-alberto-heguy-(h)',
+        'chapaleufu-alberto-heguy',
         'chapaleufu-ignacio-heguy',
         'chapaleufu-bautista-heguy',
         'chapaleufu-eduardo-heguy'
@@ -409,8 +409,8 @@ const FIXED = {
       },
       name: 'La Dolfina',
       players: [
-        'la-dolfina-adolfo-cambiaso-(h)',
-        'la-dolfina-david-stirling-(h)',
+        'la-dolfina-adolfo-cambiaso',
+        'la-dolfina-david-stirling',
         'la-dolfina-pablo-mac-donough',
         'la-dolfina-juan-martin-nero'
       ],
