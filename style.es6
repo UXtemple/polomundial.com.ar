@@ -1,7 +1,8 @@
-export const BLACK_TRANSPARENT = 'rgba(21,21,21,0.25)';
-export const BLACK = 'rgb(21,21,21)';
+export const BLACK_TRANSPARENT = 'rgba(26,23,27,0.25)';
+export const BLACK = 'rgb(26,23,27)';
+export const BLUE = 'rgb(0,51,98)';
 // la-dolfina
-export const BLUE = 'rgb(44,70,119)';
+export const DARK_BLUE = 'rgb(44,70,119)';
  // la-aguada
 export const CLARET = 'rgb(137,28,30)';
 // ellerstina

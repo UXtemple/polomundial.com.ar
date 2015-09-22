@@ -363,7 +363,7 @@ const FIXED = {
         card: '/teams/chapaleufu/card.jpg',
         logo: '/teams/chapaleufu/logo.jpg'
       },
-      name: 'Chapaleufu',
+      name: 'Chapaleufú',
       players: [
         'chapaleufu-alberto-heguy',
         'chapaleufu-ignacio-heguy',
@@ -401,7 +401,7 @@ const FIXED = {
       tripleCrownTitles: 0
     },
     'la-dolfina': {
-      colour: 'BLUE',
+      colour: 'DARK_BLUE',
       id: 'la-dolfina',
       images: {
         card: '/teams/la-dolfina/card.jpg',
