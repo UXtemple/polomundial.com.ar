@@ -14,15 +14,14 @@ const FIXED = {
     'palermo-grupo-b': {
       ref: 'grupo-b',
       name: 'Grupo B',
-      sponsoredBy: 'prevencion-salud',
+      sponsorId: 'prevencion-salud',
       teams: [
         'ellerstina',
         'las-monjitas',
         'chapaleufu',
         'equipo-xxxx'
       ]
-    }
-  {
+    },
     'hurlingham-grupo-a': {
       ref: 'grupo-a',
       name: 'Grupo A',
@@ -37,15 +36,14 @@ const FIXED = {
     'hurlingham-grupo-b': {
       ref: 'grupo-b',
       name: 'Grupo B',
-      sponsoredBy: 'prevencion-salud',
+      sponsorId: 'prevencion-salud',
       teams: [
         'ellerstina',
         'alegria',
         'chapaleufu',
         'equipo-xxxx'
       ]
-    }
-  {
+    },
     'tortugas-grupo-a': {
       ref: 'grupo-a',
       name: 'Grupo A',
@@ -59,7 +57,7 @@ const FIXED = {
     'tortugas-grupo-b': {
       ref: 'grupo-b',
       name: 'Grupo B',
-      sponsoredBy: 'prevencion-salud',
+      sponsorId: 'prevencion-salud',
       teams: [
         'ellerstina',
         'las-monjitas',
@@ -76,6 +74,10 @@ const FIXED = {
     }
   },
   sponsorsById: {
+    'prevencion-salud': {
+      image: '/logos/prevencion-salud-colour.png',
+      name: 'Prevención Salud'
+    },
     'sancor-seguros': {
       image: '/logos/sancor-seguros-colour.png',
       name: 'Sancor Seguros'
@@ -100,7 +102,8 @@ const FIXED = {
       groups: [
         'hurlingham-grupo-a',
         'hurlingham-grupo-b'
-      ]
+      ],
+      sponsorId: 'sancor-seguros'
     },
     'palermo': {
       id: 'palermo',
@@ -109,7 +112,8 @@ const FIXED = {
       groups: [
         'palermo-grupo-a',
         'palermo-grupo-b'
-      ]
+      ],
+      sponsorId: 'sancor-seguros'
     }
   },
   list: [
