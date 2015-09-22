@@ -10,12 +10,83 @@ const FIXED = {
         id: 'chapaleufu',
         score: 0
       }
+        {
+    'tortugas-las-monjitas-la-aguada': {
+      heading: 'Miercoles 30/09 - Fecha 2 - Zona B - 16:00',
+      team1: {
+        id: 'las-monjitas',
+        score: 0
+      },
+      team2: {
+        id: 'la-aguada',
+        score: 0
+      }
+      {
+    'tortugas-la-dolfina-perdedor-partido-1': {
+      heading: 'Sábado 03/10 - Fecha 3 - Zona A - 16:00',
+      team1: {
+        id: 'la-dolfina',
+        score: 0
+      },
+      team2: {
+        id: 'perdedor-partido-1',
+        score: 0
+      }
+      {
+    'tortugas-ellerstina-perdedor-partido-2': {
+      heading: 'Domingo 04/10 - Fecha 4 - Zona B - 16:00',
+      team1: {
+        id: 'ellerstina',
+        score: 0
+      },
+      team2: {
+        id: 'perdedor-partido-2',
+        score: 0
+      }
+      {
+    'tortugas-la-dolfina-ganador-partido-1': {
+      heading: 'Sábado 10/10 - Fecha 5 - Zona A - 16:00',
+      team1: {
+        id: 'la-dolfina',
+        score: 0
+      },
+      team2: {
+        id: 'ganador-partido-1',
+        score: 0
+      }
+      {
+    'tortugas-ellerstina-ganador-partido-2': {
+      heading: 'Domingo 11/10 - Fecha 6 - Zona B - 16:00',
+      team1: {
+        id: 'Ellerstina',
+        score: 0
+      },
+      team2: {
+        id: 'ganador-partido-2',
+        score: 0
+      }
+      {
+    'tortugas-ganador-zona-A-ganador-zona-B': {
+      heading: 'Sábado 17/10 - Final - Copa Emilio de Anchorena - 15:30',
+      team1: {
+        id: 'ganador-zona-A',
+        score: 0
+      },
+      team2: {
+        id: 'ganador-zona-B',
+        score: 0
+      }
     }
   },
   byTournamentId: {
     'tortugas': [
       'tortugas-alegria-chapaleufu',
       'tortugas-las-monjitas-la-aguada'
+      'tortugas-la-dolfina-perdedor-partido-1'
+      'tortugas-ellerstina-perdedor-partido-2'
+      'tortugas-la-dolfina-ganador-partido-1'
+      'tortugas-ellerstina-ganador-partido-2'
+      'tortugas-ganador-zona-A-ganador-zona-B'
     ],
   }
 };
