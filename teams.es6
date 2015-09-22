@@ -1,6 +1,53 @@
 const FIXED = {
-  playersById:{
-    {
+  playersById: {
+    'alegria-cristian-laprida': {
+      name: 'Cristian Laprida (h)',
+      number: 1,
+      photo: '/teams/alegria/cristian-laprida.png',
+      handicap: 8,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 0,
+        'palermo': 0
+      },
+      tripleCrownTitles: 0
+    },
+    'alegria-hilario-ulloa': {
+      name: 'Hilario Ulloa',
+      number: 2,
+      photo: '/teams/alegria/hilario-ulloa.png',
+      handicap: 9,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 0,
+        'palermo': 0
+      },
+      tripleCrownTitles: 0
+    },
+    'alegria-lucas-monteverde': {
+      name: 'Lucas Monteverde (h)',
+      number: 3,
+      photo: '/teams/alegria/lucas-monteverde.png',
+      handicap: 9,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 1,
+        'palermo': 4
+      },
+      tripleCrownTitles: 5
+    },
+    'alegria-frederick-mannix': {
+      name: 'Frederick Mannix (h)',
+      number: 4,
+      photo: '/teams/alegria/frederick-mannix.png',
+      handicap: 9,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 0,
+        'palermo': 0
+      },
+      tripleCrownTitles: 0
+    },
     'la-aguada-agustin-merlos': {
       name: 'Agustín Merlos',
       number: 1,
@@ -48,32 +95,55 @@ const FIXED = {
         'palermo': 1
       },
       tripleCrownTitles: 5
-    }
-  },
-  byId: {
-    'la-aguada': {
-      colour: 'CLARET',
-      id: 'la-aguada',
-      images: {
-        card: '/teams/la-aguada/card.jpg',
-        logo: '/teams/la-aguada/logo.jpg'
+    },
+    'la-dolfina-adolfo-cambiaso-(h)': {
+      name: 'Adolfo Cambiaso (h)',
+      number: 1,
+      photo: '/teams/la-dolfina/adolfo-cambiaso-(h).png',
+      handicap: 10,
+      titlesByTournamentId: {
+        'tortugas': 5,
+        'hurlingham': 11,
+        'palermo': 11
       },
-      name: 'La Aguada',
-      players: [
-        'la-aguada-agustin-merlos',
-        'la-aguada-guillermo-terrera',
-        'la-aguada-guillermo-caset-(h)',
-        'la-aguada-ignacio-novillo-astrada-(h)'
-      ],
-      handicap: 34,
+      tripleCrownTitles: 27
+    },
+    'la-dolfina-david-stirling-(h)': {
+      name: 'David Stirling (h)',
+      number: 2,
+      photo: '/teams/la-dolfina/david-stirling-(h).png',
+      handicap: 10,
       titlesByTournamentId: {
         'tortugas': 2,
-        'hurlingham': 3,
-        'palermo': 1
+        'hurlingham': 4,
+        'palermo': 3
       },
-      tripleCrownTitles: 6
+      tripleCrownTitles: 9
     },
-    {
+    'la-dolfina-pablo-mac-donough': {
+      name: 'Pablo Mac Donough',
+      number: 3,
+      photo: '/teams/la-dolfina/pablo-mac-donough.png',
+      handicap: 10,
+      titlesByTournamentId: {
+        'tortugas': 7,
+        'hurlingham': 8,
+        'palermo': 5
+      },
+      tripleCrownTitles: 20
+    },
+    'la-dolfina-juan-martin-nero': {
+      name: 'Juan Martin Nero',
+      number: 4,
+      photo: '/teams/la-dolfina/juan-martin-nero.png',
+      handicap: 10,
+      titlesByTournamentId: {
+        'tortugas': 5,
+        'hurlingham': 6,
+        'palermo': 5
+      },
+      tripleCrownTitles: 16
+    },
     'las-monjitas-ignacio-toccalino': {
       name: 'Ignacio Toccalino',
       number: 1,
@@ -115,30 +185,6 @@ const FIXED = {
       number: 4,
       photo: '/teams/las-monjitas/alejandro-novillo-astrada.png',
       handicap: 8,
-      titlesByTournamentId: {
-        'tortugas': 0,
-        'hurlingham': 0,
-        'palermo': 0
-      },
-      tripleCrownTitles: 0
-    }
-  },
-  byId: {
-    'las-monjitas': {
-      colour: 'ORANGE',
-      id: 'las-monjitas',
-      images: {
-        card: '/teams/las-monjitas/card.jpg',
-        logo: '/teams/las-monjitas/logo.jpg'
-      },
-      name: 'Las Monjitas',
-      players: [
-        'las-monjitas-ignacio-toccalino',
-        'las-monjitas-sebastián-merlos',
-        'las-monjitas-eduardo-novillo-astrada-(h)',
-        'las-monjitas-alejandro-novillo-astrada'
-      ],
-      handicap: 35,
       titlesByTournamentId: {
         'tortugas': 0,
         'hurlingham': 0,
@@ -193,32 +239,7 @@ const FIXED = {
         'palermo': 3
       },
       tripleCrownTitles: 14
-    }
-  },
-  byId: {
-    'ellerstina': {
-      colour: 'BLACK',
-      id: 'ellerstina',
-      images: {
-        card: '/teams/ellerstina/card.jpg',
-        logo: '/teams/ellerstina/logo.jpg'
-      },
-      name: 'Ellerstina',
-      players: [
-        'ellerstina-pablo-pieres',
-        'ellerstina-nicolas-pieres',
-        'ellerstina-gonzalo-gonzalo-(h)',
-        'ellerstina-facundo-pieres'
-      ],
-      handicap: 39,
-      titlesByTournamentId: {
-        'tortugas': 10,
-        'hurlingham': 7,
-        'palermo': 6
-      },
-      tripleCrownTitles: 23
     },
-  {
     'chapaleufu-alberto-heguy-(h)': {
       name: 'Alberto Heguy (h)',
       number: 1,
@@ -269,6 +290,72 @@ const FIXED = {
     }
   },
   byId: {
+    'la-aguada': {
+      colour: 'CLARET',
+      id: 'la-aguada',
+      images: {
+        card: '/teams/la-aguada/card.jpg',
+        logo: '/teams/la-aguada/logo.jpg'
+      },
+      name: 'La Aguada',
+      players: [
+        'la-aguada-agustin-merlos',
+        'la-aguada-guillermo-terrera',
+        'la-aguada-guillermo-caset-(h)',
+        'la-aguada-ignacio-novillo-astrada-(h)'
+      ],
+      handicap: 34,
+      titlesByTournamentId: {
+        'tortugas': 2,
+        'hurlingham': 3,
+        'palermo': 1
+      },
+      tripleCrownTitles: 6
+    },
+    'las-monjitas': {
+      colour: 'ORANGE',
+      id: 'las-monjitas',
+      images: {
+        card: '/teams/las-monjitas/card.jpg',
+        logo: '/teams/las-monjitas/logo.jpg'
+      },
+      name: 'Las Monjitas',
+      players: [
+        'las-monjitas-ignacio-toccalino',
+        'las-monjitas-sebastián-merlos',
+        'las-monjitas-eduardo-novillo-astrada-(h)',
+        'las-monjitas-alejandro-novillo-astrada'
+      ],
+      handicap: 35,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 0,
+        'palermo': 0
+      },
+      tripleCrownTitles: 0
+    },
+    'ellerstina': {
+      colour: 'BLACK',
+      id: 'ellerstina',
+      images: {
+        card: '/teams/ellerstina/card.jpg',
+        logo: '/teams/ellerstina/logo.jpg'
+      },
+      name: 'Ellerstina',
+      players: [
+        'ellerstina-pablo-pieres',
+        'ellerstina-nicolas-pieres',
+        'ellerstina-gonzalo-gonzalo-(h)',
+        'ellerstina-facundo-pieres'
+      ],
+      handicap: 39,
+      titlesByTournamentId: {
+        'tortugas': 10,
+        'hurlingham': 7,
+        'palermo': 6
+      },
+      tripleCrownTitles: 23
+    },
     'chapaleufu': {
       colour: 'RED',
       id: 'chapaleufu',
@@ -290,58 +377,7 @@ const FIXED = {
         'palermo': 10
       },
       tripleCrownTitles: 24
-    }, 
-  {
-    'alegria-cristian-laprida': {
-      name: 'Cristian Laprida (h)',
-      number: 1,
-      photo: '/teams/alegria/cristian-laprida.png',
-      handicap: 8,
-      titlesByTournamentId: {
-        'tortugas': 0,
-        'hurlingham': 0,
-        'palermo': 0
-      },
-      tripleCrownTitles: 0
     },
-    'alegria-hilario-ulloa': {
-      name: 'Hilario Ulloa',
-      number: 2,
-      photo: '/teams/alegria/hilario-ulloa.png',
-      handicap: 9,
-      titlesByTournamentId: {
-        'tortugas': 0,
-        'hurlingham': 0,
-        'palermo': 0
-      },
-      tripleCrownTitles: 0
-    },
-    'alegria-lucas-monteverde': {
-      name: 'Lucas Monteverde (h)',
-      number: 3,
-      photo: '/teams/alegria/lucas-monteverde.png',
-      handicap: 9,
-      titlesByTournamentId: {
-        'tortugas': 0,
-        'hurlingham': 1,
-        'palermo': 4
-      },
-      tripleCrownTitles: 5
-    },
-    'alegria-frederick-mannix': {
-      name: 'Frederick Mannix (h)',
-      number: 4,
-      photo: '/teams/alegria/frederick-mannix.png',
-      handicap: 9,
-      titlesByTournamentId: {
-        'tortugas': 0,
-        'hurlingham': 0,
-        'palermo': 0
-      },
-      tripleCrownTitles: 0
-    }
-  },
-  byId: {
     'alegria': {
       colour: 'PURPLE',
       id: 'alegria',
@@ -364,57 +400,6 @@ const FIXED = {
       },
       tripleCrownTitles: 0
     },
-    {
-    'la-dolfina-adolfo-cambiaso-(h)': {
-      name: 'Adolfo Cambiaso (h)',
-      number: 1,
-      photo: '/teams/la-dolfina/adolfo-cambiaso-(h).png',
-      handicap: 10,
-      titlesByTournamentId: {
-        'tortugas': 5,
-        'hurlingham': 11,
-        'palermo': 11
-      },
-      tripleCrownTitles: 27
-    },
-    'la-dolfina-david-stirling-(h)': {
-      name: 'David Stirling (h)',
-      number: 2,
-      photo: '/teams/la-dolfina/david-stirling-(h).png',
-      handicap: 10,
-      titlesByTournamentId: {
-        'tortugas': 2,
-        'hurlingham': 4,
-        'palermo': 3
-      },
-      tripleCrownTitles: 9
-    },
-    'la-dolfina-pablo-mac-donough': {
-      name: 'Pablo Mac Donough',
-      number: 3,
-      photo: '/teams/la-dolfina/pablo-mac-donough.png',
-      handicap: 10,
-      titlesByTournamentId: {
-        'tortugas': 7,
-        'hurlingham': 8,
-        'palermo': 5
-      },
-      tripleCrownTitles: 20
-    },
-    'la-dolfina-juan-martin-nero': {
-      name: 'Juan Martin Nero',
-      number: 4,
-      photo: '/teams/la-dolfina/juan-martin-nero.png',
-      handicap: 10,
-      titlesByTournamentId: {
-        'tortugas': 5,
-        'hurlingham': 6,
-        'palermo': 5
-      },
-      tripleCrownTitles: 16
-    }
-  },
-  byId: {
     'la-dolfina': {
       colour: 'BLUE',
       id: 'la-dolfina',
@@ -426,7 +411,7 @@ const FIXED = {
       players: [
         'la-dolfina-adolfo-cambiaso-(h)',
         'la-dolfina-david-stirling-(h)',
-        'la-dolfina-pablo-mc-donough',
+        'la-dolfina-pablo-mac-donough',
         'la-dolfina-juan-martin-nero'
       ],
       handicap: 40,
@@ -436,7 +421,8 @@ const FIXED = {
         'palermo': 8
       },
       tripleCrownTitles: 18
-    },
+    }
+  }
 };
 
 export function reducer(state=FIXED, action) {
