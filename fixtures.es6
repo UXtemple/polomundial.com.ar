@@ -10,7 +10,7 @@ const FIXED = {
         id: 'chapaleufu',
         score: 0
       }
-        {
+    },
     'tortugas-las-monjitas-la-aguada': {
       heading: 'Miercoles 30/09 - Fecha 2 - Zona B - 16:00',
       team1: {
@@ -21,7 +21,7 @@ const FIXED = {
         id: 'la-aguada',
         score: 0
       }
-      {
+    },
     'tortugas-la-dolfina-perdedor-partido-1': {
       heading: 'Sábado 03/10 - Fecha 3 - Zona A - 16:00',
       team1: {
@@ -32,7 +32,7 @@ const FIXED = {
         id: 'perdedor-partido-1',
         score: 0
       }
-      {
+    },
     'tortugas-ellerstina-perdedor-partido-2': {
       heading: 'Domingo 04/10 - Fecha 4 - Zona B - 16:00',
       team1: {
@@ -43,7 +43,7 @@ const FIXED = {
         id: 'perdedor-partido-2',
         score: 0
       }
-      {
+    },
     'tortugas-la-dolfina-ganador-partido-1': {
       heading: 'Sábado 10/10 - Fecha 5 - Zona A - 16:00',
       team1: {
@@ -54,7 +54,7 @@ const FIXED = {
         id: 'ganador-partido-1',
         score: 0
       }
-      {
+    },
     'tortugas-ellerstina-ganador-partido-2': {
       heading: 'Domingo 11/10 - Fecha 6 - Zona B - 16:00',
       team1: {
@@ -65,7 +65,7 @@ const FIXED = {
         id: 'ganador-partido-2',
         score: 0
       }
-      {
+    },
     'tortugas-ganador-zona-A-ganador-zona-B': {
       heading: 'Sábado 17/10 - Final - Copa Emilio de Anchorena - 15:30',
       team1: {
@@ -82,12 +82,12 @@ const FIXED = {
     'tortugas': [
       'tortugas-alegria-chapaleufu',
       'tortugas-las-monjitas-la-aguada'
-      'tortugas-la-dolfina-perdedor-partido-1'
-      'tortugas-ellerstina-perdedor-partido-2'
-      'tortugas-la-dolfina-ganador-partido-1'
-      'tortugas-ellerstina-ganador-partido-2'
+      'tortugas-la-dolfina-perdedor-partido-1',
+      'tortugas-ellerstina-perdedor-partido-2',
+      'tortugas-la-dolfina-ganador-partido-1',
+      'tortugas-ellerstina-ganador-partido-2',
       'tortugas-ganador-zona-A-ganador-zona-B'
-    ],
+    ]
   }
 };
 
