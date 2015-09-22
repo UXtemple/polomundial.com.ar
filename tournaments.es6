@@ -1,5 +1,51 @@
 const FIXED = {
   groupsById: {
+    'palermo-grupo-a': {
+      ref: 'grupo-a',
+      name: 'Grupo A',
+      sponsorId: 'sancor-seguros',
+      teams: [
+        'la-dolfina',
+        'alegria',
+        'la-aguada',
+        'equipo-xxx'
+      ]
+    },
+    'palermo-grupo-b': {
+      ref: 'grupo-b',
+      name: 'Grupo B',
+      sponsoredBy: 'prevencion-salud',
+      teams: [
+        'ellerstina',
+        'las-monjitas',
+        'chapaleufu',
+        'equipo-xxxx'
+      ]
+    }
+  {
+    'hurlingham-grupo-a': {
+      ref: 'grupo-a',
+      name: 'Grupo A',
+      sponsorId: 'sancor-seguros',
+      teams: [
+        'la-dolfina',
+        'las-monjitas',
+        'la-aguada',
+        'equipo-xxx'
+      ]
+    },
+    'hurlingham-grupo-b': {
+      ref: 'grupo-b',
+      name: 'Grupo B',
+      sponsoredBy: 'prevencion-salud',
+      teams: [
+        'ellerstina',
+        'alegria',
+        'chapaleufu',
+        'equipo-xxxx'
+      ]
+    }
+  {
     'tortugas-grupo-a': {
       ref: 'grupo-a',
       name: 'Grupo A',
