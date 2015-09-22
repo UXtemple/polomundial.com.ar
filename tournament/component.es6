@@ -1,5 +1,5 @@
 import { Action, Panel } from 'panels-ui';
-import { BLACK_TRANSPARENT, BLUE, FONT, WHITE } from '../style';
+import { BLACK_TRANSPARENT, BLUE, FONT, WHITE, WHITE_TRANSPARENT_50 } from '../style';
 import { connect } from 'react-redux';
 import React from 'react';
 import TournamentHeader from './header';
@@ -56,7 +56,7 @@ const style = {
   },
   panel: {
     alignItems: 'center',
-    backgroundColor: WHITE,
+    backgroundColor: WHITE_TRANSPARENT_50,
     color: BLUE,
     fontFamily: FONT
   },

@@ -2,7 +2,7 @@
 
 APP=`node -e "console.log(require('./package.json').name);"`
 BIN=node_modules/.bin
-DST=${1:-../panels/dist/$APP}
+DST=${1:-./public/$APP}
 SRC=${2:-.}
 
 echo "[pacpan] constantly packaging app ${APP} at ${SRC} to ${DST}..."

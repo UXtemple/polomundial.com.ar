@@ -1,5 +1,5 @@
 import { Action, Panel } from 'panels-ui';
-import { BLACK_TRANSPARENT, BLUE, FONT, WHITE } from '../style';
+import { BLACK_TRANSPARENT, BLUE, FONT, WHITE, WHITE_TRANSPARENT_75 } from '../style';
 import { connect } from 'react-redux';
 import getGroupId from './get-group-id';
 import React from 'react';
@@ -11,7 +11,7 @@ export const TeamCard = props => {
   };
 
   actionStyle.backgroundImage = `url(${props.team.images.card})`;
-  actionStyle.marginTop = props.i === 0 ? 75 : 10;
+  actionStyle.marginTop = props.i === 0 && 75;
 
   return (
     <Action href={`${props.team.id}/`} style={actionStyle} activeStyle={style.action.active}>
@@ -38,21 +38,16 @@ export const Group = props => {
 const style = {
   action: {
     active: {
-      borderWidth: 3,
-      borderStyle: 'solid',
-      borderColor: BLUE
+      textDecoration: 'underline'
     },
     base: {
       alignItems: 'center',
       alignSelf: 'stretch',
       backgroundSize: 'cover',
-      borderRadius: 5,
       color: BLUE,
       fontSize: 30,
       height: 150,
-      marginLeft: 35,
-      marginRight: 35,
-      paddingLeft: 15,
+      paddingLeft: 50,
       paddingTop: 15,
       paddingBottom: 15,
       textShadow: `0 0 10px ${WHITE}`,
@@ -61,7 +56,7 @@ const style = {
   },
   panel: {
     alignItems: 'center',
-    backgroundColor: WHITE,
+    backgroundColor: WHITE_TRANSPARENT_75,
     color: BLUE,
     fontFamily: FONT
   }

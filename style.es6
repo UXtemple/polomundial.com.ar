@@ -1,6 +1,7 @@
 export const BLACK_TRANSPARENT = 'rgba(26,23,27,0.25)';
 export const BLACK = 'rgb(26,23,27)';
 export const BLUE = 'rgb(0,51,98)';
+export const BLUE_TRANSPARENT = 'rgba(0,51,98, 0.5)';
 // la-dolfina
 export const DARK_BLUE = 'rgb(44,70,119)';
  // la-aguada
@@ -13,7 +14,9 @@ export const ORANGE = 'rgb(236,134,19)';
 export const PURPLE = 'rgb(166,54,132)';
 // chapaleufu
 export const RED = 'rgb(219,66,70)';
-export const TRANSPARENT_WHITE = 'rgba(255,255,255,0.35)';
 export const WHITE = 'white';
+export const WHITE_TRANSPARENT = 'rgba(255,255,255,0.35)';
+export const WHITE_TRANSPARENT_50 = 'rgba(255,255,255,0.50)';
+export const WHITE_TRANSPARENT_75 = 'rgba(255,255,255,0.75)';
 
-export const FONT = 'Gidole-Regular, sans-serif';
+export const FONT = 'Gidole, sans-serif';
