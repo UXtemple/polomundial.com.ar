@@ -3,7 +3,7 @@
 export default {
   background(state, props) {
     return {
-      image: '/background.jpg',
+      image: '/background-blurred.jpg',
       size: 'cover'
     };
   },
