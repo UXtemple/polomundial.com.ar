@@ -1,4 +1,4 @@
-import { Panel } from 'panels-ui';
+import { Action as PanelsAction, Panel } from 'panels-ui';
 import { BLUE_TRANSPARENT, FONT, FONT_LIGHT, WHITE, WHITE_TRANSPARENT } from '../style';
 import { connect } from 'react-redux';
 import Action from '../widgets/action';
@@ -51,9 +51,9 @@ export const Home = props => (
       {socialLinks.map(link => <Social {...link} key={link.name} />)}
     </div>
 
-    <a href='https://UXtemple.com' target='_blank' style={style.UXtemple}>
-      <Info type='address' text='made by UXtemple Ltd. in Panels' />
-    </a>
+    <PanelsAction href='https://uxtemple.com/' style={style.UXtemple}>
+      <Info type='uxtemple' text='made by UXtemple in Panels' />
+    </PanelsAction>
   </Panel>
 );
 
