@@ -75,11 +75,11 @@ const FIXED = {
   },
   sponsorsById: {
     'prevencion-salud': {
-      image: '/logos/prevencion-salud-colour.png',
+      id: 'prevencion-salud',
       name: 'Prevención Salud'
     },
     'sancor-seguros': {
-      image: '/logos/sancor-seguros-colour.png',
+      id: 'sancor-seguros',
       name: 'Sancor Seguros'
     }
   },

@@ -1,6 +1,7 @@
-@font-face {
-  font-family: 'Gidole';
-  src: url('/gidole.woff') format('woff'), url('/gidole.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+/* @font-face { */
+/*   font-family: 'Gidole'; */
+/*   src: url('/gidole.woff') format('woff'), url('/gidole.ttf') format('truetype'); */
+/*   font-weight: normal; */
+/*   font-style: normal; */
+/* } */
+@import url(https://fonts.googleapis.com/css?family=Oswald:300);

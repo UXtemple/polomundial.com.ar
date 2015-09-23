@@ -2,7 +2,7 @@ import { Action, Panel } from 'panels-ui';
 import { BLACK_TRANSPARENT, BLUE, FONT, WHITE, WHITE_TRANSPARENT_50 } from '../style';
 import { connect } from 'react-redux';
 import React from 'react';
-import TournamentHeader from './header';
+import Sponsor from '../widgets/sponsor';
 
 export const TournamentCard = props => {
   let actionStyle = {
@@ -28,7 +28,7 @@ export const tournament = props => {
 
   return (
     <Panel width={props.width} style={style.panel}>
-      <TournamentHeader club={props.club} sponsor={props.sponsor} />
+      <Sponsor {...props.sponsor} />
 
       {props.tournament.groups.map((group, i) => <TournamentCard tournamentId={props.tournament.id} group={props.groupsById[group]} i={i} key={i} />)}
       <Action href='fixture/' style={style.action.base}>Fixture</Action>

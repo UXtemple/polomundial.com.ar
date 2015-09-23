@@ -3,7 +3,7 @@ import { BLACK_TRANSPARENT, BLUE, FONT, WHITE, WHITE_TRANSPARENT_75 } from '../s
 import { connect } from 'react-redux';
 import getGroupId from './get-group-id';
 import React from 'react';
-import TournamentHeader from '../tournament/header';
+import Sponsor from '../widgets/sponsor';
 
 export const TeamCard = props => {
   let actionStyle = {
@@ -11,7 +11,7 @@ export const TeamCard = props => {
   };
 
   actionStyle.backgroundImage = `url(${props.team.images.card})`;
-  actionStyle.marginTop = props.i === 0 && 75;
+  actionStyle.marginTop = props.i === 0 ? 75 : 3;
 
   return (
     <Action href={`${props.team.id}/`} style={actionStyle} activeStyle={style.action.active}>
@@ -28,8 +28,7 @@ export const Group = props => {
 
   return (
     <Panel width={props.width} style={style.panel}>
-      <TournamentHeader club={props.club} sponsor={props.sponsor} />
-
+      <Sponsor {...props.sponsor} />
       {props.group.teams.map((team, i) => <TeamCard team={props.teamsById[team]} i={i} key={i} />)}
     </Panel>
   );

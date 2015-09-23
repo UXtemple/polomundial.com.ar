@@ -1,11 +1,14 @@
-import { Action, Panel } from 'panels-ui';
-import { BLUE_TRANSPARENT, FONT, WHITE, WHITE_TRANSPARENT } from '../style';
+import { Panel } from 'panels-ui';
+import { BLUE_TRANSPARENT, FONT, FONT_LIGHT, WHITE, WHITE_TRANSPARENT } from '../style';
 import { connect } from 'react-redux';
+import Action from '../widgets/action';
 import React from 'react';
+import Sponsor from '../widgets/sponsor';
 
 export const TournamentCard = props => {
   let actionStyle = {
-    ...style.action.base
+    borderColor: WHITE_TRANSPARENT,
+    color: WHITE
   };
 
   if (props.i === 0) {
@@ -21,51 +24,50 @@ export const TournamentCard = props => {
 
 const Social = props => (
   <a href={props.href} target='_blank' title={props.name}>
-    {props.name}
+    <img src={`/icons/${props.name}.svg`} alt={props.name} style={style.icon} />
   </a>
 );
 
 const socialLinks = [{
-  name: 'Facebook',
+  name: 'facebook',
   href: 'https://www.facebook.com/editorialmundialpolo'
 }, {
-  name: 'Twitter',
+  name: 'twitter',
   href: 'https://twitter.com/EdiMundial'
 }, {
-  name: 'Instagram',
+  name: 'instagram',
   href: 'https://instagram.com/edimundial'
 }];
 
 export const Home = props => (
   <Panel width={props.width} style={style.panel}>
-    <img src='/logos/polo-mundial.png' alt='Polo Mundial' style={style.poloMundialLogo} />
-    <span style={style.sponsoredBy}>presentado por</span>
-    <img src='/logos/sancor-seguros-white.png' alt='Sponsor: Sancor Seguros' style={style.sponsorLogo} />
+    <h1 style={style.title}>Polo Mundial</h1>
+    <Sponsor {...props.sponsor} colour='WHITE' />
 
     {props.tournaments.list.map((tournament, i) => <TournamentCard tournament={props.tournaments.byId[tournament]} i={i} key={i} />)}
 
-    {socialLinks.map(link => <Social {...link} />)}
+    <div style={style.icons}>
+      {socialLinks.map(link => <Social {...link} />)}
+    </div>
   </Panel>
 );
 
 const style = {
-  action: {
-    base: {
-      alignSelf: 'stretch',
-      borderBottomWidth: 1,
-      borderStyle: 'solid',
-      borderColor: WHITE_TRANSPARENT,
-      color: WHITE,
-      marginLeft: 35,
-      paddingLeft: 15,
-      paddingTop: 15,
-      paddingBottom: 15,
-      textTransform: 'uppercase'
-    }
+  icon: {
+    marginRight: 10,
+    width: 48
   },
-  poloMundialLogo: {
-    marginTop: 75,
-    width: '55%'
+  icons: {
+    flexDirection: 'row',
+    marginTop: 75
+  },
+  panel: {
+    backgroundColor: BLUE_TRANSPARENT,
+    color: WHITE,
+    fontFamily: FONT,
+    fontWeight: FONT_LIGHT,
+    paddingLeft: 35,
+    paddingRight: 35
   },
   sponsorLogo: {
     marginTop: 5,
@@ -75,17 +77,18 @@ const style = {
     fontSize: 14,
     marginTop: 5
   },
-  panel: {
-    alignItems: 'center',
-    backgroundColor: BLUE_TRANSPARENT,
-    fontFamily: FONT,
-    color: WHITE
+  title: {
+    fontSize: 40,
+    fontWeight: FONT_LIGHT,
+    marginTop: 90,
+    textTransform: 'uppercase'
   }
 };
 
 function mapStateToProps(state, props) {
   return {
-    tournaments: state.tournaments
+    tournaments: state.tournaments,
+    sponsor: state.tournaments.sponsorsById['sancor-seguros']
   };
 }
 

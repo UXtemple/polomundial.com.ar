@@ -1,9 +1,9 @@
-import { Panel } from 'panels-ui';
 import * as STYLE from '../style';
 import { connect } from 'react-redux';
+import { Panel } from 'panels-ui';
 import getGroupId from '../group/get-group-id';
 import React from 'react';
-import TournamentHeader from '../tournament/header';
+import Sponsor from '../widgets/sponsor';
 
 export const PlayerCard = props => {
   const COLOUR = STYLE[props.colour];
@@ -36,7 +36,7 @@ export const PlayerCard = props => {
 export const Team = props => {
   return (
     <Panel width={props.width} style={style.panel}>
-      <TournamentHeader club={props.club} sponsor={props.sponsor} />
+      <Sponsor {...props.sponsor} />
 
       <div style={style.team}>
         <img src={props.team.images.logo} alt={props.team.name} style={style.teamLogo} />
