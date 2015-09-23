@@ -24,9 +24,19 @@ export const TournamentCard = props => {
 };
 
 const Social = props => (
-  <a href={props.href} target='_blank' title={props.name}>
+  <a href={props.href} target='_blank' title={props.name} className='Social'>
     <img src={`/icons/${props.name}.svg`} alt={props.name} style={style.icon} />
   </a>
+);
+
+const socialStyle = (
+  <style>{`
+  .Social {
+    transition: all 0.25s linear;
+  }
+  .Social:hover {
+    transform: scale(1.2);
+  }`}</style>
 );
 
 const socialLinks = [{
@@ -48,6 +58,7 @@ export const Home = props => (
     {props.tournaments.list.map((tournament, i) => <TournamentCard tournament={props.tournaments.byId[tournament]} i={i} key={i} />)}
 
     <div style={style.icons}>
+      {socialStyle}
       {socialLinks.map(link => <Social {...link} key={link.name} />)}
     </div>
 
@@ -60,9 +71,10 @@ export const Home = props => (
 const style = {
   icon: {
     marginRight: 10,
-    width: 48
+    width: 35
   },
   icons: {
+    alignItems: 'center',
     flexDirection: 'row',
     marginTop: 75
   },
