@@ -1,34 +1,27 @@
-import * as STYLE from '../style';
+import { BLUE, FONT, FONT_LIGHT, WHITE } from '../style';
 import { connect } from 'react-redux';
 import { Panel } from 'panels-ui';
+import DottedStat from '../widgets/dotted-stat';
 import getGroupId from '../group/get-group-id';
 import React from 'react';
 import Sponsor from '../widgets/sponsor';
+import Stat from '../widgets/stat';
 
 export const PlayerCard = props => {
-  const COLOUR = STYLE[props.colour];
-
-  const playerHeading = {
-    ...style.playerHeading,
-    borderColor: COLOUR
-  };
-
   return (
     <div style={style.player}>
-      <div style={playerHeading}>
+      <div style={style.playerHeading}>
         <span style={style.playerNumber}>{props.player.number}</span>
-        {props.player.name}
+        <span style={style.playerName}>{props.player.name}</span>
       </div>
-      <div style={{flexDirection: 'row'}}>
+
+      <div style={style.playerContent}>
         <img src={props.player.photo} alt={props.player.name} style={style.playerPhoto} />
-        <div>
-          {props.player.handicap}
-          <span>Handicap</span>
-        </div>
+        <Stat number={props.player.handicap} text='Handicap' style={style.stat} />
       </div>
-      <div>
-        dots...
-      </div>
+
+      <DottedStat number={props.player.titlesByTournamentId[props.tournament.id]} text={`títulos en ${props.tournament.name}`} />
+      <DottedStat number={props.player.tripleCrownTitles} text='títulos de Triple Corona' />
     </div>
   );
 };
@@ -36,21 +29,23 @@ export const PlayerCard = props => {
 export const Team = props => {
   return (
     <Panel width={props.width} style={style.panel}>
-      <Sponsor {...props.sponsor} />
+      <h1 style={style.title}>
+        <span>{`${props.tournament.name} ${props.group.name}`}</span>
+        <span>{props.team.name}</span>
+      </h1>
+      <Sponsor {...props.sponsor} colour='BLUE' style={style.sponsor} />
 
-      <div style={style.team}>
-        <img src={props.team.images.logo} alt={props.team.name} style={style.teamLogo} />
-        <span style={style.teamName}>{props.team.name}</span>
+      <div style={style.stats}>
+        <Stat number={props.team.handicap} text='Handicap' style={style.stat} />
+        <Stat number={props.team.titlesByTournamentId[props.tournamentId]} text={`Títulos en ${props.tournament.name}`} style={style.stat} />
+        <Stat number={props.team.tripleCrownTitles} text='Títulos de Triple Corona' style={style.stat} />
       </div>
 
-      <div style={{flexDirection: 'row'}}>
-        <div>
-          <span>{props.team.handicap}</span>
-          <span>Handicap</span>
-        </div>
+      <div style={style.players}>
+        {props.team.players.map((player, i) =>
+          <PlayerCard colour={props.team.colour} player={props.playersById[player]} key={i}
+            i={i} tournament={props.tournament} />)}
       </div>
-
-      {props.team.players.map((player, i) => <PlayerCard colour={props.team.colour} player={props.playersById[player]} i={i} key={i} />)}
     </Panel>
   );
 };
@@ -60,30 +55,30 @@ const style = {
     flexDirection: 'row',
     fontSize: 30,
     marginTop: 75,
-    marginLeft: 50,
     textTransform: 'uppercase'
   },
-  teamLogo: {
-    height: '1em'
-  },
-  teamName: {
-    marginLeft: 10
-  },
   panel: {
-    alignItems: 'flex-start',
-    backgroundColor: STYLE.WHITE,
-    color: STYLE.BLACK,
-    fontFamily: STYLE.FONT,
+    backgroundColor: WHITE,
+    color: BLUE,
+    fontFamily: FONT,
+    fontWeight: FONT_LIGHT,
+    paddingLeft: 35,
+    paddingRight: 35,
     paddingBottom: 200
   },
   player: {
-    marginLeft: 50
+    marginTop: 25
+  },
+  playerContent: {
+    alignItems: 'center',
+    flexDirection: 'row'
   },
   playerHeading: {
-    borderBottomWidth: 1,
-    borderStyle: 'solid',
     flexDirection: 'row',
     textTransform: 'uppercase'
+  },
+  playerName: {
+    marginLeft: 10
   },
   playerNumber: {
     fontWeight: 600
@@ -91,6 +86,26 @@ const style = {
   playerPhoto: {
     height: 100,
     width: 100
+  },
+  players: {
+    marginTop: 50
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: FONT_LIGHT,
+    marginTop: 85,
+    textTransform: 'uppercase'
+  },
+  sponsor: {
+    marginTop: 25
+  },
+  stats: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 50
+  },
+  stat: {
+    width: '30%'
   }
 };
 
@@ -102,7 +117,8 @@ function mapStateToProps(state, props) {
     group,
     playersById: state.teams.playersById,
     sponsor: state.tournaments.sponsorsById[group.sponsorId],
-    team: state.teams.byId[props.teamId]
+    team: state.teams.byId[props.teamId],
+    tournament: state.tournaments.byId[props.tournamentId]
   };
 }
 

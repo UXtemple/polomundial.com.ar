@@ -29,8 +29,8 @@ export const Group = props => {
   return (
     <Panel width={props.width} style={style.panel}>
       <h1 style={style.title}>
-        <span>Campeonato abierto del</span>
         <span>{props.club.name}</span>
+        <span>{props.group.name}</span>
       </h1>
       <Sponsor {...props.sponsor} colour='BLUE' style={style.sponsor} />
 
