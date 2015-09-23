@@ -47,7 +47,7 @@ export const Home = props => (
     {props.tournaments.list.map((tournament, i) => <TournamentCard tournament={props.tournaments.byId[tournament]} i={i} key={i} />)}
 
     <div style={style.icons}>
-      {socialLinks.map(link => <Social {...link} />)}
+      {socialLinks.map(link => <Social {...link} key={link.name} />)}
     </div>
   </Panel>
 );

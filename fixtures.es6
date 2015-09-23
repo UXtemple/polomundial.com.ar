@@ -29,7 +29,7 @@ const FIXED = {
         score: 0
       },
       team2: {
-        id: 'perdedor-partido-1',
+        id: 'perdedor p.1',
         score: 0
       }
     },
@@ -40,7 +40,7 @@ const FIXED = {
         score: 0
       },
       team2: {
-        id: 'perdedor-partido-2',
+        id: 'perdedor p.2',
         score: 0
       }
     },
@@ -51,7 +51,7 @@ const FIXED = {
         score: 0
       },
       team2: {
-        id: 'ganador-partido-1',
+        id: 'ganador p.1',
         score: 0
       }
     },
@@ -62,18 +62,18 @@ const FIXED = {
         score: 0
       },
       team2: {
-        id: 'ganador-partido-2',
+        id: 'ganador p.2',
         score: 0
       }
     },
     'tortugas-ganador-zona-A-ganador-zona-B': {
       heading: 'Sábado 17/10 - Final - Copa Emilio de Anchorena - 15:30',
       team1: {
-        id: 'ganador-zona-A',
+        id: 'ganador g. "a"',
         score: 0
       },
       team2: {
-        id: 'ganador-zona-B',
+        id: 'ganador g. "b"',
         score: 0
       }
     }
