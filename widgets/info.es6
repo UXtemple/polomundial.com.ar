@@ -1,11 +1,18 @@
 import React from 'react';
 
-export default props => (
-  <div style={style.wrapper}>
-    <img src={`/icons/${props.type}.svg`} alt={props.type} style={style.image} />
-    <span style={style.text}>{props.text}</span>
-  </div>
-);
+export default props => {
+  const wrapperStyle = {
+    ...style.wrapper,
+    ...props.style
+  };
+
+  return (
+    <div style={wrapperStyle}>
+      <img src={`/icons/${props.type}.svg`} alt={props.type} style={style.image} />
+      <span style={style.text}>{props.text}</span>
+    </div>
+  )
+};
 
 const style = {
   wrapper: {

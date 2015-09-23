@@ -12,7 +12,7 @@ export default props => {
   const image = `/sponsors/${props.id}-${props.colour.toLowerCase()}.png`;
 
   return (
-    <div style={style.wrapper}>
+    <div style={wrapperStyle}>
       <span style={style.sponsoredBy}>presentado por</span>
       <img src={image} alt={props.name} style={style.sponsorLogo} />
     </div>

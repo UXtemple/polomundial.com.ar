@@ -73,7 +73,8 @@ const style = {
     alignItems: 'flex-start',
     backgroundColor: STYLE.WHITE,
     color: STYLE.BLACK,
-    fontFamily: STYLE.FONT
+    fontFamily: STYLE.FONT,
+    paddingBottom: 200
   },
   player: {
     marginLeft: 50

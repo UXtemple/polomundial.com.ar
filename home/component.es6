@@ -66,6 +66,7 @@ const style = {
     color: WHITE,
     fontFamily: FONT,
     fontWeight: FONT_LIGHT,
+    paddingBottom: 200,
     paddingLeft: 35,
     paddingRight: 35
   },

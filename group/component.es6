@@ -1,5 +1,5 @@
 import { Action, Panel } from 'panels-ui';
-import { BLACK_TRANSPARENT, BLUE, FONT, WHITE, WHITE_TRANSPARENT_75 } from '../style';
+import { BLUE, BLUE_TRANSPARENT, FONT, FONT_LIGHT, WHITE, WHITE_TRANSPARENT_85 } from '../style';
 import { connect } from 'react-redux';
 import getGroupId from './get-group-id';
 import React from 'react';
@@ -28,7 +28,12 @@ export const Group = props => {
 
   return (
     <Panel width={props.width} style={style.panel}>
-      <Sponsor {...props.sponsor} />
+      <h1 style={style.title}>
+        <span>Campeonato abierto del</span>
+        <span>{props.club.name}</span>
+      </h1>
+      <Sponsor {...props.sponsor} colour='BLUE' style={style.sponsor} />
+
       {props.group.teams.map((team, i) => <TeamCard team={props.teamsById[team]} i={i} key={i} />)}
     </Panel>
   );
@@ -37,7 +42,7 @@ export const Group = props => {
 const style = {
   action: {
     active: {
-      textDecoration: 'underline'
+      paddingLeft: 55
     },
     base: {
       alignItems: 'center',
@@ -46,18 +51,33 @@ const style = {
       color: BLUE,
       fontSize: 30,
       height: 150,
-      paddingLeft: 50,
+      paddingLeft: 35,
       paddingTop: 15,
       paddingBottom: 15,
       textShadow: `0 0 10px ${WHITE}`,
-      textTransform: 'uppercase'
+      textTransform: 'uppercase',
+      transition: 'padding-left 0.25s linear'
     }
   },
   panel: {
-    alignItems: 'center',
-    backgroundColor: WHITE_TRANSPARENT_75,
+    backgroundColor: WHITE_TRANSPARENT_85,
     color: BLUE,
-    fontFamily: FONT
+    fontFamily: FONT,
+    fontWeight: FONT_LIGHT,
+    paddingBottom: 200
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: FONT_LIGHT,
+    marginTop: 85,
+    paddingLeft: 35,
+    paddingRight: 35,
+    textTransform: 'uppercase'
+  },
+  sponsor: {
+    marginTop: 25,
+    paddingLeft: 35,
+    paddingRight: 35
   }
 };
 

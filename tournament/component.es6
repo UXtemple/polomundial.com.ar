@@ -40,10 +40,10 @@ export const tournament = props => {
       <Action href='fixture/' style={style.action}>Fixture</Action>
       <Action href='la-final/' style={style.action}>La final</Action>
 
-      <div style={style.info}>
+      <div style={style.infos}>
         <Info type='address' text={props.club.address} />
-        <Info type='email' text={props.club.email} />
-        <Info type='phone' text={props.club.phone} />
+        <Info type='email' text={props.club.email} style={style.info} />
+        <Info type='phone' text={props.club.phone} style={style.info} />
       </div>
     </Panel>
   );
@@ -54,14 +54,18 @@ const style = {
     borderColor: BLUE_TRANSPARENT,
     color: BLUE
   },
-  info: {
+  infos: {
     marginTop: 75
+  },
+  info: {
+    marginTop: 5
   },
   panel: {
     backgroundColor: WHITE_TRANSPARENT_65,
     color: BLUE,
     fontFamily: FONT,
     fontWeight: FONT_LIGHT,
+    paddingBottom: 200,
     paddingLeft: 35,
     paddingRight: 35
   },
