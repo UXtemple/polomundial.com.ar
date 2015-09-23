@@ -17,7 +17,8 @@ export const RED = 'rgb(219,66,70)';
 export const WHITE = 'white';
 export const WHITE_TRANSPARENT = 'rgba(255,255,255,0.35)';
 export const WHITE_TRANSPARENT_50 = 'rgba(255,255,255,0.50)';
-export const WHITE_TRANSPARENT_75 = 'rgba(255,255,255,0.75)';
+export const WHITE_TRANSPARENT_65 = 'rgba(255,255,255,0.65)';
+export const WHITE_TRANSPARENT_85 = 'rgba(255,255,255,0.85)';
 
 export const FONT = '"Oswald", sans-serif';
 export const FONT_LIGHT = 300;

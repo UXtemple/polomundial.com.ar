@@ -5,7 +5,8 @@ import React from 'react';
 export default props => {
   const wrapperStyle = {
     ...style.wrapper,
-    color: STYLE[props.colour]
+    color: STYLE[props.colour],
+    ...props.style
   };
 
   const image = `/sponsors/${props.id}-${props.colour.toLowerCase()}.png`;

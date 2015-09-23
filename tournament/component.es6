@@ -1,12 +1,14 @@
-import { Action, Panel } from 'panels-ui';
-import { BLACK_TRANSPARENT, BLUE, FONT, WHITE, WHITE_TRANSPARENT_50 } from '../style';
+import { Panel } from 'panels-ui';
+import { BLACK_TRANSPARENT, BLUE, BLUE_TRANSPARENT, FONT, FONT_LIGHT, WHITE, WHITE_TRANSPARENT_65 } from '../style';
 import { connect } from 'react-redux';
+import Action from '../widgets/action';
+import Info from '../widgets/info';
 import React from 'react';
 import Sponsor from '../widgets/sponsor';
 
 export const TournamentCard = props => {
   let actionStyle = {
-    ...style.action.base
+    ...style.action
   };
 
   if (props.i === 0) {
@@ -28,64 +30,49 @@ export const tournament = props => {
 
   return (
     <Panel width={props.width} style={style.panel}>
-      <Sponsor {...props.sponsor} />
+      <h1 style={style.title}>
+        <span>Campeonato abierto del</span>
+        <span>{props.club.name}</span>
+      </h1>
+      <Sponsor {...props.sponsor} colour='BLUE' style={style.sponsor} />
 
       {props.tournament.groups.map((group, i) => <TournamentCard tournamentId={props.tournament.id} group={props.groupsById[group]} i={i} key={i} />)}
-      <Action href='fixture/' style={style.action.base}>Fixture</Action>
-      <Action href='la-final/' style={style.action.base}>La final</Action>
+      <Action href='fixture/' style={style.action}>Fixture</Action>
+      <Action href='la-final/' style={style.action}>La final</Action>
 
-      <Action href='contacto/' style={contactStyle}>Contacto</Action>
+      <div style={style.info}>
+        <Info type='address' text={props.club.address} />
+        <Info type='email' text={props.club.email} />
+        <Info type='phone' text={props.club.phone} />
+      </div>
     </Panel>
   );
 };
 
 const style = {
   action: {
-    base: {
-      alignSelf: 'stretch',
-      borderBottomWidth: 1,
-      borderStyle: 'solid',
-      borderColor: BLUE,
-      color: BLUE,
-      marginLeft: 35,
-      paddingLeft: 15,
-      paddingTop: 15,
-      paddingBottom: 15,
-      textTransform: 'uppercase'
-    }
+    borderColor: BLUE_TRANSPARENT,
+    color: BLUE
+  },
+  info: {
+    marginTop: 75
   },
   panel: {
-    alignItems: 'center',
-    backgroundColor: WHITE_TRANSPARENT_50,
+    backgroundColor: WHITE_TRANSPARENT_65,
     color: BLUE,
-    fontFamily: FONT
-  },
-  split: {
-    backgroundColor: BLACK_TRANSPARENT,
-    height: 1,
-    marginTop: 5,
-    width: 200
-  },
-  sponsorLogo: {
-    marginTop: 5,
-    width: '40%'
-  },
-  sponsoredBy: {
-    marginTop: 5
+    fontFamily: FONT,
+    fontWeight: FONT_LIGHT,
+    paddingLeft: 35,
+    paddingRight: 35
   },
   title: {
-    color: BLUE,
-    marginTop: 75,
-    textAlign: 'center',
+    fontSize: 20,
+    fontWeight: FONT_LIGHT,
+    marginTop: 85,
     textTransform: 'uppercase'
   },
-  titleIntro: {
-    fontSize: 23,
-    fontWeight: 100
-  },
-  titleName: {
-    fontSize: 25,
-    fontWeight: 600
+  sponsor: {
+    marginTop: 25
   }
 };
 
