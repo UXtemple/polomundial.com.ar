@@ -71,6 +71,18 @@ const FIXED = {
       email: 'administracion@tortugascountryclub.com.ar',
       name: 'Tortugas Country Club',
       phone: '02320 49-1262'
+    },
+    'hurlingham': {
+      address: 'Panamericano Ramal Pilar km 386',
+      email: 'administracion@hurlinghamcountryclub.com.ar',
+      name: 'Hurlingham Country Club',
+      phone: '02320 49-1262'
+    },
+    'palermo': {
+      address: 'Panamericano Ramal Pilar km 387',
+      email: 'administracion@palermocountryclub.com.ar',
+      name: 'Palermo Country Club',
+      phone: '02320 49-1262'
     }
   },
   sponsorsById: {
@@ -85,6 +97,7 @@ const FIXED = {
   },
   byId: {
     'tortugas': {
+      active: true,
       id: 'tortugas',
       image: '/tortugas.jpg',
       name: 'Tortugas',
@@ -96,6 +109,7 @@ const FIXED = {
       sponsorId: 'sancor-seguros'
     },
     'hurlingham': {
+      active: false,
       id: 'hurlingham',
       image: '/hurlingham.jpg',
       name: 'Hurlingham',
@@ -106,6 +120,7 @@ const FIXED = {
       sponsorId: 'sancor-seguros'
     },
     'palermo': {
+      active: false,
       id: 'palermo',
       image: '/palermo.jpg',
       name: 'Palermo',

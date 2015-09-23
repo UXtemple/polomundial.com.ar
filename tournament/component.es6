@@ -22,11 +22,14 @@ export const TournamentCard = props => {
   );
 };
 
-export const tournament = props => {
-  const contactStyle = {
-    ...style.action.base,
-    marginTop: 50
-  };
+export const Tournament = props => {
+  let content = props.tournament.active ?
+    (<span style={style.content}>
+      {props.tournament.groups.map((group, i) => <TournamentCard tournamentId={props.tournament.id} group={props.groupsById[group]} i={i} key={i} />)}
+      <Action href='fixture/' style={style.action}>Fixture</Action>
+      <Action href='la-final/' style={style.action}>La final</Action>
+    </span>) :
+    <span style={style.content}>¡El torneo aún no ha empezado!</span>;
 
   return (
     <Panel width={props.width} style={style.panel}>
@@ -36,9 +39,7 @@ export const tournament = props => {
       </h1>
       <Sponsor {...props.sponsor} colour='BLUE' style={style.sponsor} />
 
-      {props.tournament.groups.map((group, i) => <TournamentCard tournamentId={props.tournament.id} group={props.groupsById[group]} i={i} key={i} />)}
-      <Action href='fixture/' style={style.action}>Fixture</Action>
-      <Action href='la-final/' style={style.action}>La final</Action>
+      {content}
 
       <div style={style.infos}>
         <Info type='address' text={props.club.address} />
@@ -53,6 +54,9 @@ const style = {
   action: {
     borderColor: BLUE_TRANSPARENT,
     color: BLUE
+  },
+  content: {
+    marginTop: 75
   },
   infos: {
     marginTop: 75
@@ -91,4 +95,4 @@ function mapStateToProps(state, props) {
   };
 }
 
-export default connect(mapStateToProps)(tournament);
+export default connect(mapStateToProps)(Tournament);
