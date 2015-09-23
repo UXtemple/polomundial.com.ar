@@ -2,7 +2,7 @@ const FIXED = {
   groupsById: {
     'palermo-grupo-a': {
       ref: 'grupo-a',
-      name: 'Grupo A',
+      name: 'Grupo "A"',
       sponsorId: 'sancor-seguros',
       teams: [
         'la-dolfina',
@@ -13,7 +13,7 @@ const FIXED = {
     },
     'palermo-grupo-b': {
       ref: 'grupo-b',
-      name: 'Grupo B',
+      name: 'Grupo "B"',
       sponsorId: 'prevencion-salud',
       teams: [
         'ellerstina',
@@ -24,7 +24,7 @@ const FIXED = {
     },
     'hurlingham-grupo-a': {
       ref: 'grupo-a',
-      name: 'Grupo A',
+      name: 'Grupo "A"',
       sponsorId: 'sancor-seguros',
       teams: [
         'la-dolfina',
@@ -35,7 +35,7 @@ const FIXED = {
     },
     'hurlingham-grupo-b': {
       ref: 'grupo-b',
-      name: 'Grupo B',
+      name: 'Grupo "B"',
       sponsorId: 'prevencion-salud',
       teams: [
         'ellerstina',
@@ -46,7 +46,7 @@ const FIXED = {
     },
     'tortugas-grupo-a': {
       ref: 'grupo-a',
-      name: 'Grupo A',
+      name: 'Grupo "A"',
       sponsorId: 'sancor-seguros',
       teams: [
         'la-dolfina',
@@ -56,7 +56,7 @@ const FIXED = {
     },
     'tortugas-grupo-b': {
       ref: 'grupo-b',
-      name: 'Grupo B',
+      name: 'Grupo "B"',
       sponsorId: 'prevencion-salud',
       teams: [
         'ellerstina',
