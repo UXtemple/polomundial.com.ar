@@ -14,7 +14,7 @@ export const TeamCard = props => {
   actionStyle.marginTop = props.i === 0 ? 75 : 3;
 
   return (
-    <Action href={`${props.team.id}/`} style={actionStyle} activeStyle={style.action.active}>
+    <Action href={`${props.team.id}/`} style={actionStyle} activeStyle={style.action.active} hoverStyle={style.action.active}>
       {props.team.name}
     </Action>
   );

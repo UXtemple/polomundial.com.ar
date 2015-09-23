@@ -8,7 +8,7 @@ export default props => {
   };
 
   return (
-    <Action href={props.href} style={actionStyle} activeStyle={style.active}>
+    <Action href={props.href} style={actionStyle} activeStyle={style.active} hoverStyle={style.active}>
       {props.children}
     </Action>
   );

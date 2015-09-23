@@ -1,15 +1,13 @@
 export default {
-  background(state, props) {
-    return {
-      image: '/background-blurred.jpg',
-      size: 'cover'
-    };
+  background: {
+    image: '/background-blurred.jpg',
+    size: 'cover'
   },
   props: {
     'tournamentId': ':tournamentId'
   },
-  title(state, props) {
-    const club = state.tournaments.clubsById[props.tournamentId];
+  title(getState, props) {
+    const club = getState().tournaments.clubsById[props.tournamentId];
 
     return `Final ${club.name}`;
   },

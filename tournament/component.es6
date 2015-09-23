@@ -48,11 +48,11 @@ const style = {
   content: {
     marginTop: 75
   },
-  infos: {
-    marginTop: 75
-  },
   info: {
     marginTop: 5
+  },
+  infos: {
+    marginTop: 75
   },
   panel: {
     backgroundColor: WHITE_TRANSPARENT_65,
