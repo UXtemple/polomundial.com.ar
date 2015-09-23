@@ -2,6 +2,7 @@ import { Panel } from 'panels-ui';
 import { BLUE_TRANSPARENT, FONT, FONT_LIGHT, WHITE, WHITE_TRANSPARENT } from '../style';
 import { connect } from 'react-redux';
 import Action from '../widgets/action';
+import Info from '../widgets/info';
 import React from 'react';
 import Sponsor from '../widgets/sponsor';
 
@@ -49,6 +50,10 @@ export const Home = props => (
     <div style={style.icons}>
       {socialLinks.map(link => <Social {...link} key={link.name} />)}
     </div>
+
+    <a href='https://UXtemple.com' target='_blank' style={style.UXtemple}>
+      <Info type='address' text='made by UXtemple Ltd. in Panels' />
+    </a>
   </Panel>
 );
 
@@ -83,6 +88,11 @@ const style = {
     fontWeight: FONT_LIGHT,
     marginTop: 90,
     textTransform: 'uppercase'
+  },
+  UXtemple: {
+    color: WHITE,
+    marginTop: 75,
+    textDecoration: 'none'
   }
 };
 

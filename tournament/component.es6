@@ -6,26 +6,16 @@ import Info from '../widgets/info';
 import React from 'react';
 import Sponsor from '../widgets/sponsor';
 
-export const TournamentCard = props => {
-  let actionStyle = {
-    ...style.action
-  };
-
-  if (props.i === 0) {
-    actionStyle.marginTop = 75;
-  }
-
-  return (
-    <Action href={`${props.group.ref}/`} style={actionStyle}>
-      {props.group.name}
-    </Action>
-  );
-};
+export const TournamentCard = props => (
+  <Action href={`${props.group.ref}/`} style={style.action}>
+    {props.group.name}
+  </Action>
+);
 
 export const Tournament = props => {
   let content = props.tournament.active ?
     (<span style={style.content}>
-      {props.tournament.groups.map((group, i) => <TournamentCard tournamentId={props.tournament.id} group={props.groupsById[group]} i={i} key={i} />)}
+      {props.tournament.groups.map((group, i) => <TournamentCard tournamentId={props.tournament.id} group={props.groupsById[group]} key={i} />)}
       <Action href='fixture/' style={style.action}>Fixture</Action>
       <Action href='la-final/' style={style.action}>La final</Action>
     </span>) :
