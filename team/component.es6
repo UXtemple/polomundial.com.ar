@@ -8,6 +8,18 @@ import Sponsor from '../widgets/sponsor';
 import Stat from '../widgets/stat';
 
 export const PlayerCard = props => {
+  const titlesText = {
+    0: `Ningún título en ${props.tournament.name}`,
+    1: `1 título en ${props.tournament.name}`,
+    many: `títulos en ${props.tournament.name}`
+  };
+
+  const tripleCrownTitlesText = {
+    0: `Ningún título de Triple Corona`,
+    1: `1 título de Triple Corona`,
+    many: `títulos de Triple Corona`
+  };
+
   return (
     <div style={style.player}>
       <div style={style.playerHeading}>
@@ -20,8 +32,8 @@ export const PlayerCard = props => {
         <Stat number={props.player.handicap} text='Handicap' style={style.stat} />
       </div>
 
-      <DottedStat number={props.player.titlesByTournamentId[props.tournament.id]} text={`títulos en ${props.tournament.name}`} />
-      <DottedStat number={props.player.tripleCrownTitles} text='títulos de Triple Corona' />
+      <DottedStat number={props.player.titlesByTournamentId[props.tournament.id]} text={titlesText} />
+      <DottedStat number={props.player.tripleCrownTitles} text={tripleCrownTitlesText} />
     </div>
   );
 };

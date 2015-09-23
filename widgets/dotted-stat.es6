@@ -14,14 +14,21 @@ export default props => {
     );
   }
 
+  let text;
+  switch (props.number) {
+    case 0:
+    case 1:
+      text = props.text[props.number];
+      break;
+    default:
+      text = `${props.number} ${props.text.many}`;
+      break;
+  }
+
   return (
     <div style={wrapperStyle}>
-      <span style={style.text}>
-        {`${props.number} ${props.text}`}
-      </span>
-      <div style={style.dots}>
-        {dots}
-      </div>
+      <span style={style.text}>{text}</span>
+      {props.number > 0 && <div style={style.dots}>{dots}</div>}
     </div>
   );
 };

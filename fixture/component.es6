@@ -84,14 +84,10 @@ const style = {
     fontSize: 20,
     fontWeight: FONT_LIGHT,
     marginTop: 85,
-    paddingLeft: 35,
-    paddingRight: 35,
     textTransform: 'uppercase'
   },
   sponsor: {
-    marginTop: 25,
-    paddingLeft: 35,
-    paddingRight: 35
+    marginTop: 25
   }
 };
 
