@@ -3,7 +3,7 @@ const FIXED = {
     'alegria-cristian-laprida': {
       name: 'Cristian Laprida (h)',
       number: 1,
-      photo: '/teams/alegria/cristian-laprida.png',
+      photo: '/teams/alegria/cristian-laprida.jpg',
       handicap: 8,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -15,7 +15,7 @@ const FIXED = {
     'alegria-hilario-ulloa': {
       name: 'Hilario Ulloa',
       number: 2,
-      photo: '/teams/alegria/hilario-ulloa.png',
+      photo: '/teams/alegria/hilario-ulloa.jpg',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -27,7 +27,7 @@ const FIXED = {
     'alegria-lucas-monteverde': {
       name: 'Lucas Monteverde (h)',
       number: 3,
-      photo: '/teams/alegria/lucas-monteverde.png',
+      photo: '/teams/alegria/lucas-monteverde.jpg',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -39,7 +39,7 @@ const FIXED = {
     'alegria-frederick-mannix': {
       name: 'Frederick Mannix (h)',
       number: 4,
-      photo: '/teams/alegria/frederick-mannix.png',
+      photo: '/teams/alegria/frederick-mannix.jpg',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -51,7 +51,7 @@ const FIXED = {
     'la-aguada-agustin-merlos': {
       name: 'Agustín Merlos',
       number: 1,
-      photo: '/teams/la-aguada/agustin-merlos.png',
+      photo: '/teams/la-aguada/agustin-merlos.jpg',
       handicap: 8,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -63,7 +63,7 @@ const FIXED = {
     'la-aguada-guillermo-terrera': {
       name: 'Guillermo Terrera (h)',
       number: 2,
-      photo: '/teams/la-aguada/guillermo-terrera.png',
+      photo: '/teams/la-aguada/guillermo-terrera.jpg',
       handicap: 8,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -75,7 +75,7 @@ const FIXED = {
     'la-aguada-guillermo-caset': {
       name: 'Guillermo Caset (h)',
       number: 3,
-      photo: '/teams/la-aguada/guillermo-caset.png',
+      photo: '/teams/la-aguada/guillermo-caset.jpg',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -87,7 +87,7 @@ const FIXED = {
     'la-aguada-ignacio-novillo-astrada': {
       name: 'Ignacio Novillo Astrada (h)',
       number: 4,
-      photo: '/teams/la-aguada/ignacio-novillo-astrada.png',
+      photo: '/teams/la-aguada/ignacio-novillo-astrada.jpg',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 2,
@@ -99,7 +99,7 @@ const FIXED = {
     'la-dolfina-adolfo-cambiaso': {
       name: 'Adolfo Cambiaso (h)',
       number: 1,
-      photo: '/teams/la-dolfina/adolfo-cambiaso.png',
+      photo: '/teams/la-dolfina/adolfo-cambiaso.jpg',
       handicap: 10,
       titlesByTournamentId: {
         'tortugas': 5,
@@ -111,7 +111,7 @@ const FIXED = {
     'la-dolfina-david-stirling': {
       name: 'David Stirling (h)',
       number: 2,
-      photo: '/teams/la-dolfina/david-stirling.png',
+      photo: '/teams/la-dolfina/david-stirling.jpg',
       handicap: 10,
       titlesByTournamentId: {
         'tortugas': 2,
@@ -123,7 +123,7 @@ const FIXED = {
     'la-dolfina-pablo-mac-donough': {
       name: 'Pablo Mac Donough',
       number: 3,
-      photo: '/teams/la-dolfina/pablo-mac-donough.png',
+      photo: '/teams/la-dolfina/pablo-mac-donough.jpg',
       handicap: 10,
       titlesByTournamentId: {
         'tortugas': 7,
@@ -135,7 +135,7 @@ const FIXED = {
     'la-dolfina-juan-martin-nero': {
       name: 'Juan Martin Nero',
       number: 4,
-      photo: '/teams/la-dolfina/juan-martin-nero.png',
+      photo: '/teams/la-dolfina/juan-martin-nero.jpg',
       handicap: 10,
       titlesByTournamentId: {
         'tortugas': 5,
@@ -147,7 +147,7 @@ const FIXED = {
     'las-monjitas-ignacio-toccalino': {
       name: 'Ignacio Toccalino',
       number: 1,
-      photo: '/teams/las-monjitas/ignacio-toccalino.png',
+      photo: '/teams/las-monjitas/ignacio-toccalino.jpg',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -159,7 +159,7 @@ const FIXED = {
     'las-monjitas-sebastian-merlos': {
       name: 'Sebastián Merlos',
       number: 2,
-      photo: '/teams/las-monjitas/sebastian-merlos.png',
+      photo: '/teams/las-monjitas/sebastian-merlos.jpg',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 1,
@@ -171,7 +171,7 @@ const FIXED = {
     'las-monjitas-eduardo-novillo-astrada': {
       name: 'Eduardo Novillo Astrada (h)',
       number: 3,
-      photo: '/teams/las-monjitas/eduardo-novillo-astrada.png',
+      photo: '/teams/las-monjitas/eduardo-novillo-astrada.jpg',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 3,
@@ -183,7 +183,7 @@ const FIXED = {
     'las-monjitas-alejandro-novillo-astrada': {
       name: 'Alejandro Novillo Astrada',
       number: 4,
-      photo: '/teams/las-monjitas/alejandro-novillo-astrada.png',
+      photo: '/teams/las-monjitas/alejandro-novillo-astrada.jpg',
       handicap: 8,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -195,7 +195,7 @@ const FIXED = {
     'ellerstina-pablo-pieres': {
       name: 'Pablo Pieres',
       number: 1,
-      photo: '/teams/ellerstina/pablo-pieres.png',
+      photo: '/teams/ellerstina/pablo-pieres.jpg',
       handicap: 10,
       titlesByTournamentId: {
         'tortugas': 0,
@@ -207,7 +207,7 @@ const FIXED = {
     'ellerstina-nicolas-pieres': {
       name: 'Nicolas Pieres',
       number: 2,
-      photo: '/teams/ellerstina/nicolas-pieres.png',
+      photo: '/teams/ellerstina/nicolas-pieres.jpg',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 2,
@@ -219,7 +219,7 @@ const FIXED = {
     'ellerstina-gonzalo-pieres': {
       name: 'Gonzalo Pieres (h)',
       number: 3,
-      photo: '/teams/ellerstina/gonzalo-pieres.png',
+      photo: '/teams/ellerstina/gonzalo-pieres.jpg',
       handicap: 10,
       titlesByTournamentId: {
         'tortugas': 7,
@@ -231,7 +231,7 @@ const FIXED = {
     'ellerstina-facundo-pieres': {
       name: 'Facundo Pieres',
       number: 4,
-      photo: '/teams/ellerstina/facundo-pieres.png',
+      photo: '/teams/ellerstina/facundo-pieres.jpg',
       handicap: 10,
       titlesByTournamentId: {
         'tortugas': 7,
@@ -243,7 +243,7 @@ const FIXED = {
     'chapaleufu-alberto-heguy': {
       name: 'Alberto Heguy (h)',
       number: 1,
-      photo: '/teams/chapaleufu/alberto-heguy.png',
+      photo: '/teams/chapaleufu/alberto-heguy.jpg',
       handicap: 8,
       titlesByTournamentId: {
         'tortugas': 7,
@@ -255,7 +255,7 @@ const FIXED = {
     'chapaleufu-ignacio-heguy': {
       name: 'Ignacio Heguy',
       number: 2,
-      photo: '/teams/chapaleufu/ignacio-heguy.png',
+      photo: '/teams/chapaleufu/ignacio-heguy.jpg',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 5,
@@ -267,7 +267,7 @@ const FIXED = {
     'chapaleufu-bautista-heguy': {
       name: 'Bautista Heguy',
       number: 3,
-      photo: '/teams/chapaleufu/bautista-heguy.png',
+      photo: '/teams/chapaleufu/bautista-heguy.jpg',
       handicap: 8,
       titlesByTournamentId: {
         'tortugas': 1,
@@ -279,7 +279,7 @@ const FIXED = {
     'chapaleufu-eduardo-heguy': {
       name: 'Eduardo Heguy',
       number: 4,
-      photo: '/teams/chapaleufu/eduardo-heguy.png',
+      photo: '/teams/chapaleufu/eduardo-heguy.jpg',
       handicap: 9,
       titlesByTournamentId: {
         'tortugas': 8,
