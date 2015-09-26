@@ -9,7 +9,7 @@ export default props => {
     ...props.style
   };
 
-  const image = `/sponsors/${props.id}-${props.colour.toLowerCase()}.png`;
+  const image = `/sponsors/${props.id}-${props.colour.toLowerCase()}.svg`;
 
   return (
     <div style={wrapperStyle}>
@@ -21,8 +21,9 @@ export default props => {
 
 const style = {
   sponsorLogo: {
-    marginTop: 5,
-    width: '40%'
+    alignSelf: 'flex-start',
+    height: 28,
+    marginTop: 5
   },
   sponsoredBy: {
     fontSize: 12,

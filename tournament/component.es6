@@ -18,6 +18,12 @@ export const Tournament = props => {
       {props.tournament.groups.map((group, i) => <TournamentCard tournamentId={props.tournament.id} group={props.groupsById[group]} key={i} />)}
       <Action href='fixture/' style={style.action}>Fixture</Action>
       <Action href='la-final/' style={style.action}>La final</Action>
+
+      <div style={style.infos}>
+        <Info type='address' text={props.club.address} />
+        <Info type='email' text={props.club.email} style={style.info} />
+        <Info type='phone' text={props.club.phone} style={style.info} />
+      </div>
     </span>) :
     <span style={style.content}>¡El torneo aún no ha empezado!</span>;
 
@@ -30,12 +36,6 @@ export const Tournament = props => {
       <Sponsor {...props.sponsor} colour='BLUE' style={style.sponsor} />
 
       {content}
-
-      <div style={style.infos}>
-        <Info type='address' text={props.club.address} />
-        <Info type='email' text={props.club.email} style={style.info} />
-        <Info type='phone' text={props.club.phone} style={style.info} />
-      </div>
     </Panel>
   );
 };
