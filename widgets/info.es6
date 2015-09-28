@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default props => {
+export default function Info(props) {
   const wrapperStyle = {
     ...style.wrapper,
     ...props.style

@@ -20,6 +20,11 @@ export const PlayerCard = props => {
     many: `títulos de Triple Corona`
   };
 
+  const handicapStyle = {
+    ...style.stat,
+    marginLeft: 45
+  };
+
   return (
     <div style={style.player}>
       <div style={style.playerHeading}>
@@ -29,7 +34,7 @@ export const PlayerCard = props => {
 
       <div style={style.playerContent}>
         <img src={props.player.photo} alt={props.player.name} style={style.playerPhoto} />
-        <Stat number={props.player.handicap} text='Handicap' style={style.stat} />
+        <Stat number={props.player.handicap} text='Handicap' style={handicapStyle} />
       </div>
 
       <DottedStat number={props.player.titlesByTournamentId[props.tournament.id]} text={titlesText} />
@@ -39,6 +44,12 @@ export const PlayerCard = props => {
 };
 
 export const Team = props => {
+  const teamStyle = {
+    alignItems: 'center',
+    textAlign: 'center',
+    width: '25%'
+  };
+
   return (
     <Panel width={props.width} style={style.panel}>
       <h1 style={style.title}>
@@ -48,6 +59,10 @@ export const Team = props => {
       <Sponsor {...props.sponsor} colour='BLUE' style={style.sponsor} />
 
       <div style={style.stats}>
+        <div style={teamStyle}>
+          <img src={`/teams/${props.team.id}/logo.svg`} alt={props.team.name} style={style.teamLogo} />
+          <span style={style.text}>{props.team.name}</span>
+        </div>
         <Stat number={props.team.handicap} text='Handicap' style={style.stat} />
         <Stat number={props.team.titlesByTournamentId[props.tournamentId]} text={`Títulos en ${props.tournament.name}`} style={style.stat} />
         <Stat number={props.team.tripleCrownTitles} text='Títulos de Triple Corona' style={style.stat} />
@@ -100,7 +115,7 @@ const style = {
     width: 100
   },
   players: {
-    marginTop: 50
+    marginTop: 25
   },
   title: {
     fontSize: 20,
@@ -114,10 +129,14 @@ const style = {
   stats: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginTop: 50
+    marginTop: 75
   },
   stat: {
-    width: '30%'
+    width: '25%'
+  },
+  teamLogo: {
+    height: 89,
+    width: '100%'
   }
 };
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default props => {
+export default function Stat(props) {
   const wrapperStyle = {
     ...style.wrapper,
     ...props.style
@@ -8,7 +8,7 @@ export default props => {
   return (
     <div style={wrapperStyle}>
       <span style={style.number}>{props.number}</span>
-      <span style={style.text}>{props.text}</span>
+      <span>{props.text}</span>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import { Action } from 'panels-ui';
 import React from 'react';
 
-export default props => {
+export default function CustomAction(props) {
   const actionStyle = {
     ...style.base,
     ...props.style

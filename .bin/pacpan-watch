@@ -19,5 +19,6 @@ $BIN/watchify --debug --verbose \
   --ignore **/node_modules/**,**/__tests__/** \
   --require $SRC/index:$APP \
   --extension .es6 \
+  --plugin browserify-hmr \
   --transform babelify \
   --outfile $DST.js

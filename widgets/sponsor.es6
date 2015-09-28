@@ -2,7 +2,7 @@ import * as STYLE from '../style';
 import { connect } from 'react-redux';
 import React from 'react';
 
-export default props => {
+export default function Sponsor(props) {
   const wrapperStyle = {
     ...style.wrapper,
     color: STYLE[props.colour],
