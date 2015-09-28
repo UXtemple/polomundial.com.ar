@@ -75,7 +75,11 @@ const style = {
   },
   icons: {
     alignItems: 'center',
+    msAlignItems: 'center',
+    WebkitAlignItems: 'center',
     flexDirection: 'row',
+    msFlexDirection: 'row',
+    WebkitFlexDirection: 'row',
     marginTop: 75
   },
   panel: {

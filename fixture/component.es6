@@ -56,13 +56,22 @@ const style = {
   },
   matchContent: {
     alignItems: 'center',
+    msFlexAlign: 'center',
+    WebkitAlignItems: 'center',
     flex: 1,
+    msFlex: 1,
+    WebkitFlex: 1,
     flexDirection: 'row',
-    justifyContent: 'space-between'
+    msFlexDirection: 'row',
+    WebkitFlexDirection: 'row',
+    justifyContent: 'space-between',
+    msFlexPack: 'justify',
+    WebkitJustifyContent: 'space-between'
   },
   matchContentWrapper: {
-    flex: 1,
     flexDirection: 'row',
+    msFlexDirection: 'row',
+    WebkitFlexDirection: 'row',
     marginTop: 5
   },
   matchTeam: {

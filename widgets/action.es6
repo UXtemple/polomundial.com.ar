@@ -20,6 +20,8 @@ const style = {
   },
   base: {
     alignSelf: 'stretch',
+    msFlexItemAlign: 'stretch',
+    WebkitAlignSelf: 'stretch',
     borderBottomWidth: 1,
     borderStyle: 'solid',
     paddingTop: 15,

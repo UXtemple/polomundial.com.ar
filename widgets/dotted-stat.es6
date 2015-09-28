@@ -44,13 +44,17 @@ const style = {
   },
   dots: {
     flexDirection: 'row',
+    msFlexDirection: 'row',
+    WebkitFlexDirection: 'row',
     flexWrap: 'wrap',
+    MsFlexWrap: 'wrap',
+    WebkitFlexWrap: 'wrap',
     width: '95%'
   },
   dotsWrapper: {
-    flexDirection: 'row'
-  },
-  number: {
+    flexDirection: 'row',
+    msFlexDirection: 'row',
+    WebkitFlexDirection: 'row'
   },
   wrapper: {
     marginTop: 10

@@ -17,13 +17,20 @@ export default function Info(props) {
 const style = {
   wrapper: {
     alignItems: 'center',
+    msFlexAlign: 'center',
+    WebkitAlignItems: 'center',
     flexDirection: 'row',
+    msFlexDirection: 'row',
+    WebkitFlexDirection: 'row',
     fontSize: 12
   },
   image: {
     width: 24
   },
   text: {
-    marginLeft: 10
+    flex: 1,
+    WebkitFlex: 1,
+    marginLeft: 10,
+    width: '100%'
   }
 };

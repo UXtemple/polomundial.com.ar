@@ -8,7 +8,7 @@ export default function Stat(props) {
   return (
     <div style={wrapperStyle}>
       <span style={style.number}>{props.number}</span>
-      <span>{props.text}</span>
+      <span style={style.text}>{props.text}</span>
     </div>
   );
 };
@@ -17,8 +17,13 @@ const style = {
   number: {
     fontSize: 60
   },
+  text: {
+    width: '100%'
+  },
   wrapper: {
     alignItems: 'center',
+    msFlexAlign: 'center',
+    WebkitAlignItems: 'center',
     textAlign: 'center'
   }
 }

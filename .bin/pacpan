@@ -2,12 +2,12 @@
 
 APP=`node -e "console.log(require('./package.json').name);"`
 BIN=node_modules/.bin
-DST=${1:-./pack/$APP}
+DST=${1:-./public/$APP}
 SRC=${2:-.}
 
 echo "[pacpan] packaging panels app ${APP} at '${SRC}'..."
 
-mkdir -p ./pack
+mkdir -p ./public
 
 $BIN/browserify --debug --verbose \
   --external panels-ui \

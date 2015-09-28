@@ -46,6 +46,8 @@ export const PlayerCard = props => {
 export const Team = props => {
   const teamStyle = {
     alignItems: 'center',
+    msFlexAlign: 'center',
+    WebkitAlignItems: 'center',
     textAlign: 'center',
     width: '25%'
   };
@@ -80,6 +82,8 @@ export const Team = props => {
 const style = {
   team: {
     flexDirection: 'row',
+    msFlexDirection: 'row',
+    WebkitFlexDirection: 'row',
     fontSize: 30,
     marginTop: 75,
     textTransform: 'uppercase'
@@ -98,10 +102,16 @@ const style = {
   },
   playerContent: {
     alignItems: 'center',
-    flexDirection: 'row'
+    msFlexAlign: 'center',
+    WebkitAlignItems: 'center',
+    flexDirection: 'row',
+    msFlexDirection: 'row',
+    WebkitFlexDirection: 'row'
   },
   playerHeading: {
     flexDirection: 'row',
+    msFlexDirection: 'row',
+    WebkitFlexDirection: 'row',
     textTransform: 'uppercase'
   },
   playerName: {
@@ -128,7 +138,11 @@ const style = {
   },
   stats: {
     flexDirection: 'row',
+    msFlexDirection: 'row',
+    WebkitFlexDirection: 'row',
     justifyContent: 'space-between',
+    msFlexPack: 'justify',
+    WebkitJustifyContent: 'space-between',
     marginTop: 75
   },
   stat: {

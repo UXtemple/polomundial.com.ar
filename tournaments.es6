@@ -67,22 +67,22 @@ const FIXED = {
   },
   clubsById: {
     'tortugas': {
-      address: 'Panamericano Ramal Pilar km 385',
+      address: 'Panamericano Ramal Pilar km 385, Provincia de Buenos Aires, Argentina',
       email: 'administracion@tortugascountryclub.com.ar',
       name: 'Tortugas Country Club',
       phone: '02320 49-1262'
     },
     'hurlingham': {
-      address: 'Panamericano Ramal Pilar km 386',
+      address: 'Av. Roca 1411, Hurlingham, Provincia de Buenos Aires, Argentina',
       email: 'administracion@hurlinghamcountryclub.com.ar',
       name: 'Hurlingham Country Club',
-      phone: '02320 49-1262'
+      phone: '011 4662-5510'
     },
     'palermo': {
-      address: 'Panamericano Ramal Pilar km 387',
+      address: 'Arévalo 3065, Palermo, Buenos Aires, Argentina',
       email: 'administracion@palermocountryclub.com.ar',
       name: 'Palermo Country Club',
-      phone: '02320 49-1262'
+      phone: '011 4777-6444'
     }
   },
   sponsorsById: {

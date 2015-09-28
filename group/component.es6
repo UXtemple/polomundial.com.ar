@@ -46,7 +46,11 @@ const style = {
     },
     base: {
       alignItems: 'center',
+      msFlexAlign: 'center',
+      WebkitAlignItems: 'center',
       alignSelf: 'stretch',
+      msFlexItemAlign: 'stretch',
+      WebkitAlignSelf: 'stretch',
       backgroundSize: 'cover',
       color: BLUE,
       fontSize: 30,

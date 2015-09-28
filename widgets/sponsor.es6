@@ -22,6 +22,8 @@ export default function Sponsor(props) {
 const style = {
   sponsorLogo: {
     alignSelf: 'flex-start',
+    msFlexAlign: 'flex-start',
+    WebkitAlignSelf: 'flex-start',
     height: 28,
     marginTop: 5
   },
