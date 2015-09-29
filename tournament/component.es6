@@ -1,6 +1,6 @@
-import { Panel } from 'panels-ui';
 import { BLACK_TRANSPARENT, BLUE, BLUE_TRANSPARENT, FONT, FONT_LIGHT, WHITE, WHITE_TRANSPARENT_65 } from '../style';
 import { connect } from 'react-redux';
+import { Panel } from 'panels-ui';
 import Action from '../widgets/action';
 import Info from '../widgets/info';
 import React from 'react';

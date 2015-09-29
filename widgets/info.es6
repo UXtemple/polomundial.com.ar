@@ -1,3 +1,4 @@
+import { alignItemsCenter, flexDirectionRow } from 'browser-vendor-prefix';
 import React from 'react';
 
 export default function Info(props) {
@@ -16,20 +17,14 @@ export default function Info(props) {
 
 const style = {
   wrapper: {
-    alignItems: 'center',
-    msFlexAlign: 'center',
-    WebkitAlignItems: 'center',
-    flexDirection: 'row',
-    msFlexDirection: 'row',
-    WebkitFlexDirection: 'row',
+    ...alignItemsCenter,
+    ...flexDirectionRow,
     fontSize: 12
   },
   image: {
     width: 24
   },
   text: {
-    flex: 1,
-    WebkitFlex: 1,
     marginLeft: 10,
     width: '100%'
   }

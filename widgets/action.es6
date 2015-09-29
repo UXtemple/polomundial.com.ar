@@ -1,4 +1,5 @@
 import { Action } from 'panels-ui';
+import { alignSelfStretch } from 'browser-vendor-prefix';
 import React from 'react';
 
 export default function CustomAction(props) {
@@ -19,9 +20,7 @@ const style = {
     paddingLeft: 15
   },
   base: {
-    alignSelf: 'stretch',
-    msFlexItemAlign: 'stretch',
-    WebkitAlignSelf: 'stretch',
+    ...alignSelfStretch,
     borderBottomWidth: 1,
     borderStyle: 'solid',
     paddingTop: 15,

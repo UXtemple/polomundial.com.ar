@@ -1,5 +1,5 @@
 **/*.js
 *.log
 .DS_Store
-pack
 node_modules/*
+public/*.js*

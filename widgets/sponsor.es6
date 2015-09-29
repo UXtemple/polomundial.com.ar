@@ -1,4 +1,5 @@
 import * as STYLE from '../style';
+import { alignSelfFlexStart } from 'browser-vendor-prefix';
 import { connect } from 'react-redux';
 import React from 'react';
 
@@ -21,9 +22,7 @@ export default function Sponsor(props) {
 
 const style = {
   sponsorLogo: {
-    alignSelf: 'flex-start',
-    msFlexAlign: 'flex-start',
-    WebkitAlignSelf: 'flex-start',
+    ...alignSelfFlexStart,
     height: 28,
     marginTop: 5
   },

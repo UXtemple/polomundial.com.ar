@@ -1,4 +1,5 @@
 import { Action, Panel } from 'panels-ui';
+import { alignItemsCenter, flex1, flexDirectionRow, justifyContentSpaceBetween } from 'browser-vendor-prefix';
 import { BLUE, BLUE_TRANSPARENT, FONT, FONT_LIGHT, WHITE, WHITE_TRANSPARENT_85 } from '../style';
 import { connect } from 'react-redux';
 import getGroupId from '../group/get-group-id';
@@ -57,23 +58,13 @@ const style = {
     fontSize: 14
   },
   matchContent: {
-    alignItems: 'center',
-    msFlexAlign: 'center',
-    WebkitAlignItems: 'center',
-    flex: 1,
-    msFlex: 1,
-    WebkitFlex: 1,
-    flexDirection: 'row',
-    msFlexDirection: 'row',
-    WebkitFlexDirection: 'row',
-    justifyContent: 'space-between',
-    msFlexPack: 'justify',
-    WebkitJustifyContent: 'space-between'
+    ...alignItemsCenter,
+    ...flex1,
+    ...flexDirectionRow,
+    ...justifyContentSpaceBetween,
   },
   matchContentWrapper: {
-    flexDirection: 'row',
-    msFlexDirection: 'row',
-    WebkitFlexDirection: 'row',
+    ...flexDirectionRow,
     marginTop: 5
   },
   matchTeam: {

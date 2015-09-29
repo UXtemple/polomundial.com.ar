@@ -6,6 +6,7 @@ VERSION=${VERSION:-patch};
 git pull &&
 git push &&
 npm run build &&
+npm run pacpan &&
 npm version $VERSION &&
 npm publish &&
 git push --follow-tags &&

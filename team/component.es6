@@ -1,3 +1,4 @@
+import { alignItemsCenter, flexDirectionRow, justifyContentSpaceBetween } from 'browser-vendor-prefix';
 import { BLUE, FONT, FONT_LIGHT, WHITE } from '../style';
 import { connect } from 'react-redux';
 import { Panel } from 'panels-ui';
@@ -45,9 +46,7 @@ export const PlayerCard = props => {
 
 export const Team = props => {
   const teamStyle = {
-    alignItems: 'center',
-    msFlexAlign: 'center',
-    WebkitAlignItems: 'center',
+    ...alignItemsCenter,
     textAlign: 'center',
     width: '25%'
   };
@@ -81,9 +80,7 @@ export const Team = props => {
 
 const style = {
   team: {
-    flexDirection: 'row',
-    msFlexDirection: 'row',
-    WebkitFlexDirection: 'row',
+    ...flexDirectionRow,
     fontSize: 30,
     marginTop: 75,
     textTransform: 'uppercase'
@@ -101,17 +98,11 @@ const style = {
     marginTop: 25
   },
   playerContent: {
-    alignItems: 'center',
-    msFlexAlign: 'center',
-    WebkitAlignItems: 'center',
-    flexDirection: 'row',
-    msFlexDirection: 'row',
-    WebkitFlexDirection: 'row'
+    ...alignItemsCenter,
+    ...flexDirectionRow
   },
   playerHeading: {
-    flexDirection: 'row',
-    msFlexDirection: 'row',
-    WebkitFlexDirection: 'row',
+    ...flexDirectionRow,
     textTransform: 'uppercase'
   },
   playerName: {
@@ -137,12 +128,8 @@ const style = {
     marginTop: 25
   },
   stats: {
-    flexDirection: 'row',
-    msFlexDirection: 'row',
-    WebkitFlexDirection: 'row',
-    justifyContent: 'space-between',
-    msFlexPack: 'justify',
-    WebkitJustifyContent: 'space-between',
+    ...flexDirectionRow,
+    ...justifyContentSpaceBetween,
     marginTop: 75
   },
   stat: {

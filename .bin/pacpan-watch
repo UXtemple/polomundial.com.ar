@@ -21,4 +21,4 @@ $BIN/watchify --debug --verbose \
   --extension .es6 \
   --plugin browserify-hmr \
   --transform babelify \
-  --outfile $DST.js
+  --outfile $DST.dev.js

@@ -46,6 +46,7 @@
     "watchify": "^3.4.0"
   },
   "dependencies": {
+    "browser-vendor-prefix": "^1.0.0",
     "panels-ui": "^0.6.0",
     "react": "^0.14.0-rc1",
     "react-redux": "^2.1.2",

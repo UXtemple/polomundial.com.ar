@@ -1,4 +1,5 @@
 import { Action as PanelsAction, Panel } from 'panels-ui';
+import { alignItemsCenter, flexDirectionRow } from 'browser-vendor-prefix';
 import { BLUE_TRANSPARENT, FONT, FONT_LIGHT, WHITE, WHITE_TRANSPARENT } from '../style';
 import { connect } from 'react-redux';
 import Action from '../widgets/action';
@@ -74,12 +75,8 @@ const style = {
     width: 35
   },
   icons: {
-    alignItems: 'center',
-    msAlignItems: 'center',
-    WebkitAlignItems: 'center',
-    flexDirection: 'row',
-    msFlexDirection: 'row',
-    WebkitFlexDirection: 'row',
+    ...alignItemsCenter,
+    ...flexDirectionRow,
     marginTop: 75
   },
   panel: {

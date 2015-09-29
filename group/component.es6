@@ -1,4 +1,5 @@
 import { Action, Panel } from 'panels-ui';
+import { alignItemsCenter, alignSelfStretch } from 'browser-vendor-prefix';
 import { BLUE, BLUE_TRANSPARENT, FONT, FONT_LIGHT, WHITE, WHITE_TRANSPARENT_85 } from '../style';
 import { connect } from 'react-redux';
 import getGroupId from './get-group-id';
@@ -45,12 +46,8 @@ const style = {
       paddingLeft: 55
     },
     base: {
-      alignItems: 'center',
-      msFlexAlign: 'center',
-      WebkitAlignItems: 'center',
-      alignSelf: 'stretch',
-      msFlexItemAlign: 'stretch',
-      WebkitAlignSelf: 'stretch',
+      ...alignItemsCenter,
+      ...alignSelfStretch,
       backgroundSize: 'cover',
       color: BLUE,
       fontSize: 30,

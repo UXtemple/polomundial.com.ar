@@ -1,4 +1,5 @@
 import { BLUE } from '../style';
+import { flexDirectionRow, flexWrapWrap } from 'browser-vendor-prefix';
 import React from 'react';
 
 export default function DottedStat(props) {
@@ -9,9 +10,7 @@ export default function DottedStat(props) {
 
   const dots = [];
   for (var i = 0; i < props.number; i++) {
-    dots.push(
-      <span style={style.dot} />
-    );
+    dots.push(<span style={style.dot} key={i} />);
   }
 
   let text;
@@ -43,19 +42,11 @@ const style = {
     width: 10
   },
   dots: {
-    flexDirection: 'row',
-    msFlexDirection: 'row',
-    WebkitFlexDirection: 'row',
-    flexWrap: 'wrap',
-    MsFlexWrap: 'wrap',
-    WebkitFlexWrap: 'wrap',
+    ...flexDirectionRow,
+    ...flexWrapWrap,
     width: '95%'
   },
-  dotsWrapper: {
-    flexDirection: 'row',
-    msFlexDirection: 'row',
-    WebkitFlexDirection: 'row'
-  },
+  dotsWrapper: flexDirectionRow,
   wrapper: {
     marginTop: 10
   }
