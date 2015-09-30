@@ -67,7 +67,7 @@ const FIXED = {
   },
   clubsById: {
     'tortugas': {
-      address: 'Panamericano Ramal Pilar km 385, Provincia de Buenos Aires, Argentina',
+      address: 'Panamericana Ramal Pilar km 38,5, Provincia de Buenos Aires, Argentina',
       email: 'administracion@tortugascountryclub.com.ar',
       name: 'Tortugas Country Club',
       phone: '02320 49-1262'
