@@ -82,9 +82,9 @@ const FIXED = {
     'tortugas': [
       'tortugas-alegria-chapaleufu',
       'tortugas-las-monjitas-la-aguada',
-      'tortugas-la-dolfina-perdedor-partido-1',
+      'tortugas-la-dolfina-chapaleufu',
       'tortugas-ellerstina-perdedor-partido-2',
-      'tortugas-la-dolfina-ganador-partido-1',
+      'tortugas-la-dolfina-alegria',
       'tortugas-ellerstina-ganador-partido-2',
       'tortugas-ganador-zona-A-ganador-zona-B'
     ]
