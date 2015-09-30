@@ -4,11 +4,11 @@ const FIXED = {
       heading: 'Martes 29/09 - Fecha 1 - Zona A - 16:00',
       team1: {
         id: 'alegria',
-        score: 0
+        score: 15
       },
       team2: {
         id: 'chapaleufu',
-        score: 0
+        score: 11
       }
     },
     'tortugas-las-monjitas-la-aguada': {
@@ -22,14 +22,14 @@ const FIXED = {
         score: 0
       }
     },
-    'tortugas-la-dolfina-perdedor-partido-1': {
+    'tortugas-la-dolfina-chapaleufu': {
       heading: 'Sábado 03/10 - Fecha 3 - Zona A - 16:00',
       team1: {
         id: 'la-dolfina',
         score: 0
       },
       team2: {
-        id: 'perdedor p.1',
+        id: 'chapaleufu',
         score: 0
       }
     },
@@ -44,14 +44,14 @@ const FIXED = {
         score: 0
       }
     },
-    'tortugas-la-dolfina-ganador-partido-1': {
+    'tortugas-la-dolfina-alegria': {
       heading: 'Sábado 10/10 - Fecha 5 - Zona A - 16:00',
       team1: {
         id: 'la-dolfina',
         score: 0
       },
       team2: {
-        id: 'ganador p.1',
+        id: 'alegria',
         score: 0
       }
     },
