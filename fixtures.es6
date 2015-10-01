@@ -15,11 +15,11 @@ const FIXED = {
       heading: 'Miércoles 30/09 - Fecha 2 - Zona B - 16:00',
       team1: {
         id: 'las-monjitas',
-        score: 0
+        score: 10
       },
       team2: {
         id: 'la-aguada',
-        score: 0
+        score: 11
       }
     },
     'tortugas-la-dolfina-chapaleufu': {
