@@ -16,9 +16,9 @@ export const PlayerCard = props => {
   };
 
   const tripleCrownTitlesText = {
-    0: `Ningún título de Triple Corona`,
-    1: `1 título de Triple Corona`,
-    many: `títulos de Triple Corona`
+    0: `Ningún título de la Triple Corona`,
+    1: `1 título de la Triple Corona`,
+    many: `títulos de la Triple Corona`
   };
 
   const handicapStyle = {
@@ -66,7 +66,7 @@ export const Team = props => {
         </div>
         <Stat number={props.team.handicap} text='Handicap' style={style.stat} />
         <Stat number={props.team.titlesByTournamentId[props.tournamentId]} text={`Títulos en ${props.tournament.name}`} style={style.stat} />
-        <Stat number={props.team.tripleCrownTitles} text='Títulos de Triple Corona' style={style.stat} />
+        <Stat number={props.team.tripleCrownTitles} text='Títulos de la Triple Corona' style={style.stat} />
       </div>
 
       <div style={style.players}>
