@@ -33,14 +33,14 @@ const FIXED = {
         score: 0
       }
     },
-    'tortugas-ellerstina-perdedor-partido-2': {
+    'tortugas-ellerstina-las-monjitas': {
       heading: 'Domingo 04/10 - Fecha 4 - Zona B - 16:00',
       team1: {
         id: 'ellerstina',
         score: 0
       },
       team2: {
-        id: 'perdedor p.2',
+        id: 'las monjitas',
         score: 0
       }
     },
@@ -55,14 +55,14 @@ const FIXED = {
         score: 0
       }
     },
-    'tortugas-ellerstina-ganador-partido-2': {
+    'tortugas-ellerstina-la-aguada': {
       heading: 'Domingo 11/10 - Fecha 6 - Zona B - 16:00',
       team1: {
         id: 'ellerstina',
         score: 0
       },
       team2: {
-        id: 'ganador p.2',
+        id: 'la-aguada',
         score: 0
       }
     },
@@ -83,9 +83,9 @@ const FIXED = {
       'tortugas-alegria-chapaleufu',
       'tortugas-las-monjitas-la-aguada',
       'tortugas-la-dolfina-chapaleufu',
-      'tortugas-ellerstina-perdedor-partido-2',
+      'tortugas-ellerstina-las-monjitas',
       'tortugas-la-dolfina-alegria',
-      'tortugas-ellerstina-ganador-partido-2',
+      'tortugas-ellerstina-la-aguada',
       'tortugas-ganador-zona-A-ganador-zona-B'
     ]
   }
