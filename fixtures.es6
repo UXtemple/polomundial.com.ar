@@ -23,7 +23,7 @@ const FIXED = {
       }
     },
     'tortugas-la-dolfina-chapaleufu': {
-      heading: 'Sábado 03/10 - Fecha 3 - Zona A - 16:00',
+      heading: 'REPROGRAMADO',
       team1: {
         id: 'la-dolfina',
         score: 0
