@@ -23,7 +23,7 @@ const FIXED = {
       }
     },
     'tortugas-la-dolfina-chapaleufu': {
-      heading: 'Lunes 05/10 - Fecha 3 - Zona A - 16:00',
+      heading: 'Lunes 05/10 - Fecha 3 - Zona A - 15:30',
       team1: {
         id: 'la-dolfina',
         score: 0
@@ -34,18 +34,18 @@ const FIXED = {
       }
     },
     'tortugas-ellerstina-las-monjitas': {
-      heading: 'Domingo 04/10 - Fecha 4 - Zona B - 16:00',
+      heading: 'Domingo 04/10 - Fecha 4 - Zona B - 15:30',
       team1: {
         id: 'ellerstina',
-        score: 0
+        score: 20
       },
       team2: {
         id: 'las monjitas',
-        score: 0
+        score: 12
       }
     },
     'tortugas-la-dolfina-alegria': {
-      heading: 'Sábado 10/10 - Fecha 5 - Zona A - 16:00',
+      heading: 'Sábado 10/10 - Fecha 5 - Zona A - 15:30',
       team1: {
         id: 'la-dolfina',
         score: 0
@@ -56,7 +56,7 @@ const FIXED = {
       }
     },
     'tortugas-ellerstina-la-aguada': {
-      heading: 'Domingo 11/10 - Fecha 6 - Zona B - 16:00',
+      heading: 'Domingo 11/10 - Fecha 6 - Zona B - 15:30',
       team1: {
         id: 'ellerstina',
         score: 0
