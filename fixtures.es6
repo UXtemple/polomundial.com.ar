@@ -26,11 +26,11 @@ const FIXED = {
       heading: 'Lunes 05/10 - Fecha 3 - Zona A - 15:30',
       team1: {
         id: 'la-dolfina',
-        score: 0
+        score: 20
       },
       team2: {
         id: 'chapaleufu',
-        score: 0
+        score: 6
       }
     },
     'tortugas-ellerstina-las-monjitas': {
