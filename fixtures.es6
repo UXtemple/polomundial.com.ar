@@ -56,7 +56,7 @@ const FIXED = {
       }
     },
     'tortugas-ellerstina-la-aguada': {
-      heading: 'Domingo 11/10 - Fecha 6 - Zona B - 15:30',
+      heading: 'Domingo 11/10 - Fecha 6 - Zona B - 14:30',
       team1: {
         id: 'ellerstina',
         score: 0
