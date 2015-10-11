@@ -8,7 +8,7 @@ const FIXED = {
         'la-dolfina',
         'alegria',
         'la-aguada',
-        'equipo-xxx'
+        'magual'
       ]
     },
     'palermo-grupo-b': {
@@ -19,7 +19,7 @@ const FIXED = {
         'ellerstina',
         'las-monjitas',
         'chapaleufu',
-        'equipo-xxxx'
+        'washington'
       ]
     },
     'hurlingham-grupo-a': {
@@ -30,7 +30,7 @@ const FIXED = {
         'la-dolfina',
         'las-monjitas',
         'la-aguada',
-        'equipo-xxx'
+        'washington'
       ]
     },
     'hurlingham-grupo-b': {
@@ -41,7 +41,7 @@ const FIXED = {
         'ellerstina',
         'alegria',
         'chapaleufu',
-        'equipo-xxxx'
+        'magual'
       ]
     },
     'tortugas-grupo-a': {
@@ -74,14 +74,14 @@ const FIXED = {
     },
     'hurlingham': {
       address: 'Av. Roca 1411, Hurlingham, Provincia de Buenos Aires, Argentina',
-      email: 'administracion@hurlinghamcountryclub.com.ar',
-      name: 'Hurlingham Country Club',
+      email: 'eventos@hurlinghamclub.com.ar',
+      name: 'Hurlingham Club',
       phone: '011 4662-5510'
     },
     'palermo': {
-      address: 'Arévalo 3065, Palermo, Buenos Aires, Argentina',
-      email: 'administracion@palermocountryclub.com.ar',
-      name: 'Palermo Country Club',
+      address: 'Av. del Libertador y Dorrego, Palermo, Buenos Aires, Argentina',
+      email: 'torneos@aapolo.com',
+      name: 'Argentino Abierto de Polo',
       phone: '011 4777-6444'
     }
   },
