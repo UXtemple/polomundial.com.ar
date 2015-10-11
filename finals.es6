@@ -3,12 +3,12 @@ const FIXED = {
     'tortugas': {
       heading: 'Sábado 17/10 - Copa Emiliano de Anchorena - 15:30',
       team1: {
-        id: 'alegria',
-        score: 6
+        id: 'la-dolfina',
+        score: 0
       },
       team2: {
-        id: 'chapaleufu',
-        score: 4
+        id: 'ellerstina',
+        score: 0
       },
       chukkers: {
         1: {
