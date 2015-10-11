@@ -40,7 +40,7 @@ const FIXED = {
         score: 20
       },
       team2: {
-        id: 'las monjitas',
+        id: 'las-monjitas',
         score: 12
       }
     },
@@ -48,32 +48,32 @@ const FIXED = {
       heading: 'Sábado 10/10 - Fecha 5 - Zona A - 15:30',
       team1: {
         id: 'la-dolfina',
-        score: 0
+        score: 18
       },
       team2: {
         id: 'alegria',
-        score: 0
+        score: 8
       }
     },
     'tortugas-ellerstina-la-aguada': {
       heading: 'Domingo 11/10 - Fecha 6 - Zona B - 14:30',
       team1: {
         id: 'ellerstina',
-        score: 0
+        score: 17
       },
       team2: {
         id: 'la-aguada',
-        score: 0
+        score: 10
       }
     },
-    'tortugas-ganador-zona-A-ganador-zona-B': {
+    'tortugas-la-dolfina-ellerstina': {
       heading: 'Sábado 17/10 - Final - Copa Emilio de Anchorena - 15:30',
       team1: {
-        id: 'ganador g. "a"',
+        id: 'la-dolfina',
         score: 0
       },
       team2: {
-        id: 'ganador g. "b"',
+        id: 'ellerstina',
         score: 0
       }
     }
@@ -86,7 +86,7 @@ const FIXED = {
       'tortugas-ellerstina-las-monjitas',
       'tortugas-la-dolfina-alegria',
       'tortugas-ellerstina-la-aguada',
-      'tortugas-ganador-zona-A-ganador-zona-B'
+      'tortugas-la-dolfina-ellerstina'
     ]
   }
 };
