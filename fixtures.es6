@@ -1,5 +1,167 @@
 const FIXED = {
   byId: {
+    'hurlingham-la-dolfina-washington': {
+      heading: 'Martes 20/10 - Partido 1 - Zona A - 14:00',
+      team1: {
+        id: 'la-dolfina',
+        score: 0
+      },
+      team2: {
+        id: 'washington',
+        score: 0
+      }
+    },
+    'hurlingham-la-aguada-las-monjitas': {
+      heading: 'Martes 20/10 - Partido 2 - Zona A - 16:00',
+      team1: {
+        id: 'la-aguada',
+        score: 0
+      },
+      team2: {
+        id: 'las-monjitas',
+        score: 0
+      }
+    },
+    'hurlingham-ellerstina-magual': {
+      heading: 'Miércoles 21/10 - Partido 3 - Zona B - 14:00',
+      team1: {
+        id: 'ellerstina',
+        score: 0
+      },
+      team2: {
+        id: 'magual',
+        score: 0
+      }
+    },
+    'hurlingham-alegria-chapaleufu': {
+      heading: 'Miércoles 21/10 - Partido 4 - Zona B - 16:00',
+      team1: {
+        id: 'alegria',
+        score: 0
+      },
+      team2: {
+        id: 'chapaleufu',
+        score: 0
+      }
+    },
+    'hurlingham-ganador-partido-2-perdedor-partido-1': {
+      heading: 'Viernes 23/10 - Partido 5 - Zona A - 14:00',
+      team1: {
+        id: 'ganador-partido-2',
+        score: 0
+      },
+      team2: {
+        id: 'perdedor-partido-1',
+        score: 0
+      }
+    },
+    'hurlingham-ganador-partido-1-perdedor-partido-2': {
+      heading: 'Viernes 23/10 - Partido 6 - Zona A - 16:00',
+      team1: {
+        id: 'ganador-partido-1',
+        score: 0
+      },
+      team2: {
+        id: 'perdedor-partido-2',
+        score: 0
+      }
+    },
+    'hurlingham-ganador-partido-4-perdedor-partido-3': {
+      heading: 'Sábado 24/10 - Partido 7 - Zona B - 14:00',
+      team1: {
+        id: 'ganador-partido-4',
+        score: 0
+      },
+      team2: {
+        id: 'perdedor-partido-3',
+        score: 0
+      }
+    }
+  },
+    'hurlingham-ganador-partido-3-perdedor-partido-1': {
+      heading: 'Sábado 24/10 - Partido 8 - Zona B - 16:00',
+      team1: {
+        id: 'ganador-partido-3',
+        score: 0
+      },
+      team2: {
+        id: 'perdedor-partido-1',
+        score: 0
+      }
+    },
+    'hurlingham-perdedor-partido-1-perdedor-partido-2': {
+      heading: 'Sábado 31/10 - Partido 9 - Zona A - 14:00',
+      team1: {
+        id: 'perdedor-partido-1',
+        score: 0
+      },
+      team2: {
+        id: 'perdedor-partido-2',
+        score: 0
+      }
+    },
+    'hurlingham-ganador-partido-1-ganador-partido-2': {
+      heading: 'Sábado 31/10 - Partido 10 - Zona A - 16:00',
+      team1: {
+        id: 'ganador-partido-1',
+        score: 0
+      },
+      team2: {
+        id: 'ganador-partido-2',
+        score: 0
+      }
+    },
+    'hurlingham-perdedor-partido-3-perdedor-partido-4': {
+      heading: 'Domingo 01/11 - Partido 11 - Zona B - 14:00',
+      team1: {
+        id: 'perdedor-partido-3',
+        score: 0
+      },
+      team2: {
+        id: 'perdedor-partido-4',
+        score: 0
+      }
+    },
+    'hurlingham-ganador-partido-3-ganador-partido-4': {
+      heading: 'Domingo 01/11 - Partido 12 - Zona B - 16:00',
+      team1: {
+        id: 'ganador-partido-3',
+        score: 0
+      },
+      team2: {
+        id: 'ganador-partido-4',
+        score: 0
+      }
+    },
+    'hurlingham-ganador-zona-A-ganador-zona-B': {
+      heading: 'Sábado 07/11 - Final - 16:00',
+      team1: {
+        id: 'ganador-zona-A',
+        score: 0
+      },
+      team2: {
+        id: 'ganador-zona-B',
+        score: 0
+      }
+  },
+  byTournamentId: {
+    'hurlingham': [
+      'hurlingham-la-dolfina-washington',
+      'hurlingham-la-aguada-las-monjitas',
+      'hurlingham-ellerstina-magual',
+      'hurlingham-alegria-chapaleufu',
+      'hurlingham-ganador-partido-2-perdedor-partido-1',
+      'hurlingham-ganador-partido-1-perdedor-partido-2',
+      'hurlingham-ganador-partido-4-perdedor-partido-3',
+      'hurlingham-ganador-partido-3-perdedor-partido-4',
+      'hurlingham-perdedor-partido-1-perdedor-partido-2',
+      'hurlingham-ganador-partido-1-ganador-partido-2',
+      'hurlingham-perdedor-partido-3-perdedor-partido-4',
+      'hurlingham-ganador-partido-3-ganador-partido-4',
+      'hurlingham-ganador-zona-A-ganador-zona-B',
+    ]
+  }
+  {
     'tortugas-alegria-chapaleufu': {
       heading: 'Martes 29/09 - Fecha 1 - Zona A - 16:00',
       team1: {
