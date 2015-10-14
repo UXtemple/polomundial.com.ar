@@ -1,5 +1,103 @@
 const FIXED = {
   playersById: {
+    'washington-diego-cavanagh': {
+      name: 'Diego Cavanagh',
+      number: 1,
+      photo: '/teams/washington/diego-cavanagh.jpg',
+      handicap: 8,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 0,
+        'palermo': 0
+      },
+      tripleCrownTitles: 0
+    },
+    'washington-ezequiel-martinez-ferrario': {
+      name: 'Ezequiel Martinez Ferrario',
+      number: 2,
+      photo: '/teams/washington/ezequiel-martinez-ferrario.jpg',
+      handicap: 7,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 0,
+        'palermo': 0
+      },
+      tripleCrownTitles: 0
+    },
+    'washington-facundo-sola': {
+      name: 'Facundo Sola',
+      number: 3,
+      photo: '/teams/washington/facundo-sola.jpg',
+      handicap: 8,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 0,
+        'palermo': 0
+      },
+      tripleCrownTitles: 0
+    },
+    'washington-alfredo-cappella-barabucci': {
+      name: 'Alfredo Cappella Barabucci',
+      number: 4,
+      photo: '/teams/washington/alfredo-cappella-barabucci.jpg',
+      handicap: 8,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 0,
+        'palermo': 0
+      },
+      tripleCrownTitles: 0
+    },
+  {
+    'magual-alejandro-muzzio': {
+      name: 'Alejandro Muzzio',
+      number: 1,
+      photo: '/teams/magual/alejandro-muzzio.jpg',
+      handicap: 8,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 0,
+        'palermo': 0
+      },
+      tripleCrownTitles: 0
+    },
+    'magual-francisco-elizalde': {
+      name: 'Francisco Elizalde',
+      number: 2,
+      photo: '/teams/magual/francisco-elizalde.jpg',
+      handicap: 7,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 0,
+        'palermo': 0
+      },
+      tripleCrownTitles: 0
+    },
+    'magual-marcos-di-paola': {
+      name: 'Marcos Di Paola',
+      number: 3,
+      photo: '/teams/magual/marcos-di-paola.jpg',
+      handicap: 8,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 0,
+        'palermo': 0
+      },
+      tripleCrownTitles: 0
+    },
+    'magual-santiago-toccalino': {
+      name: 'Santiago Toccalino',
+      number: 4,
+      photo: '/teams/magual/santiago-toccalino.jpg',
+      handicap: 8,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 0,
+        'palermo': 0
+      },
+      tripleCrownTitles: 0
+    },
+  {
     'alegria-cristian-laprida': {
       name: 'Cristian Laprida (h)',
       number: 1,
@@ -289,6 +387,54 @@ const FIXED = {
       tripleCrownTitles: 15
     }
   },
+   byId: {
+    'washington': {
+      colour: 'CLARET',
+      id: 'washington',
+      images: {
+        card: '/teams/washington/card.jpg',
+        logo: '/teams/washington/logo.jpg'
+      },
+      name: 'Washington',
+      players: [
+        'washington-diego-cavanagh',
+        'washington-ezequiel-martinez-ferrario',
+        'washington-facundo-sola',
+        'washington-alfredo-cappella-barabucci'
+      ],
+      handicap: 31,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 0,
+        'palermo': 0
+      },
+      tripleCrownTitles: 0
+    },
+  
+  byId: {
+    'magual': {
+      colour: 'CLARET',
+      id: 'magual',
+      images: {
+        card: '/teams/magual/card.jpg',
+        logo: '/teams/magual/logo.jpg'
+      },
+      name: 'Magual',
+      players: [
+        'magual-alejandro-muzzio',
+        'magual-francisco-elizalde',
+        'magual-marcos-di-paola',
+        'magual-santiago-toccalino'
+      ],
+      handicap: 31,
+      titlesByTournamentId: {
+        'tortugas': 0,
+        'hurlingham': 0,
+        'palermo': 0
+      },
+      tripleCrownTitles: 0
+    },
+  
   byId: {
     'la-aguada': {
       colour: 'CLARET',
