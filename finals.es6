@@ -1,30 +1,83 @@
 const FIXED = {
   byTournamentId: {
     'tortugas': {
-      heading: 'Sábado 17/10 - Copa Emiliano de Anchorena - 15:30',
-      team1: {
-        id: 'la-dolfina',
-        score: 0
-      },
-      team2: {
-        id: 'ellerstina',
-        score: 0
-      },
-      chukkers: {
-        1: {
+      active: false,
+      done: false,
+      chukkers: [
+        // {
+        //   number: 6,
+        //   score: {
+        //     team1: 0,
+        //     team2: 0
+        //   },
+        //   goals: [
+        //   ]
+        // },
+
+        // {
+        //   number: 5,
+        //   score: {
+        //     team1: 0,
+        //     team2: 0
+        //   },
+        //   goals: [
+        //   ]
+        // },
+
+        // {
+        //   number: 4,
+        //   score: {
+        //     team1: 0,
+        //     team2: 0
+        //   },
+        //   goals: [
+        //   ]
+        // },
+
+        // {
+        //   number: 3,
+        //   score: {
+        //     team1: 0,
+        //     team2: 0
+        //   },
+        //   goals: [
+        //   ]
+        // },
+
+        // {
+        //   number: 2,
+        //   score: {
+        //     team1: 0,
+        //     team2: 0
+        //   },
+        //   goals: [
+        //   ]
+        // },
+
+        {
+          number: 1,
           score: {
-            team1: 3,
-            team2: 1
+            team1: 0,
+            team2: 0
           },
-          goals: [{
-            teamId: 'alegria',
-            playerId: 'd-stirling'
-          }, {
-            teamId: 'alegria',
-            playerId: 'd-stirling'
-          }]
+          goals: [
+            // {
+            //   team: 'team1',
+            //   playerId: 'washington-diego-cavanagh'
+            // },
+            // {
+            //   team: 'team2',
+            //   playerId: 'magual-francisco-elizalde'
+            // }
+          ]
         }
-      }
+      ]
+    },
+    'hurlingham': {
+      active: false
+    },
+    'palermo': {
+      active: false
     }
   }
 };
