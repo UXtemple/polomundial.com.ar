@@ -213,11 +213,11 @@ const FIXED = {
       heading: 'Sábado 17/10 - Final - Copa Emilio de Anchorena - 15:30',
       team1: {
         id: 'la-dolfina',
-        score: 0
+        score: 11
       },
       team2: {
         id: 'ellerstina',
-        score: 0
+        score: 9
       }
     }
   },
