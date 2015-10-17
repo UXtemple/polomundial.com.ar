@@ -109,7 +109,7 @@ const FIXED = {
       sponsorId: 'sancor-seguros'
     },
     'hurlingham': {
-      active: false,
+      active: true,
       id: 'hurlingham',
       image: '/hurlingham.jpg',
       name: 'Hurlingham',

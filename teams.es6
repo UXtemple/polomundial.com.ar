@@ -48,7 +48,6 @@ const FIXED = {
       },
       tripleCrownTitles: 0
     },
-  {
     'magual-alejandro-muzzio': {
       name: 'Alejandro Muzzio',
       number: 1,
@@ -97,7 +96,6 @@ const FIXED = {
       },
       tripleCrownTitles: 0
     },
-  {
     'alegria-cristian-laprida': {
       name: 'Cristian Laprida (h)',
       number: 1,
@@ -410,8 +408,6 @@ const FIXED = {
       },
       tripleCrownTitles: 0
     },
-  
-  byId: {
     'magual': {
       colour: 'CLARET',
       id: 'magual',
@@ -434,8 +430,6 @@ const FIXED = {
       },
       tripleCrownTitles: 0
     },
-  
-  byId: {
     'la-aguada': {
       colour: 'CLARET',
       id: 'la-aguada',
