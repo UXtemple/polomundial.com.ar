@@ -1,5 +1,5 @@
 {
-  "active": false,
+  "active": true,
   "done": false,
   "chukkers": [{
     "active": false,
@@ -47,13 +47,15 @@
     "goals": [
     ]
   }, {
-    "active": false,
+    "active": true,
     "number": 1,
     "score": {
-      "team1": 0,
+      "team1": 1,
       "team2": 0
     },
-    "goals": [
-    ]
+    "goals": [{
+      "team": "team1",
+      "playerId": "la-dolfina-adolfo-cambiaso"
+    }]
   }]
 }
