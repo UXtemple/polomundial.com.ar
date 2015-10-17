@@ -78,10 +78,10 @@ export const Match = props => {
       <div style={style.matchContentWrapper}>
         <div style={style.matchContent}>
           <div style={style.matchTeam}>{team1Name}</div>
-          <div style={style.matchScore}>{props.team1.score}</div>
+          <div style={style.matchScore}>{props.final.score ? props.final.score.team1 : 0}</div>
         </div>
         <div style={team2MatchContent}>
-          <div style={style.matchScore}>{props.team2.score}</div>
+          <div style={style.matchScore}>{props.final.score ? props.final.score.team2 : 0}</div>
           <div style={style.matchTeam}>{team2Name}</div>
         </div>
       </div>
@@ -94,7 +94,7 @@ export class Final extends Component {
   componentDidMount() {
     this.props.dispatch(getFinal());
 
-    this.interval = setInterval(() => this.props.dispatch(getFinal()), 60*1000);
+    this.interval = setInterval(() => this.props.dispatch(getFinal()), 10*1000);
   }
 
   componentWillUnmount() {
