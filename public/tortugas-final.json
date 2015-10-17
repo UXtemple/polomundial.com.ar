@@ -56,6 +56,9 @@
     "goals": [{
       "team": "team1",
       "playerId": "la-dolfina-adolfo-cambiaso"
+    }, {
+      "team": "team2",
+      "playerId": "ellerstina-pablo-pieres"
     }]
   }]
 }
