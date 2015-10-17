@@ -198,11 +198,11 @@ const FIXED = {
       photo: '/teams/la-dolfina/adolfo-cambiaso.jpg',
       handicap: 10,
       titlesByTournamentId: {
-        'tortugas': 5,
+        'tortugas': 6,
         'hurlingham': 11,
         'palermo': 11
       },
-      tripleCrownTitles: 27
+      tripleCrownTitles: 28
     },
     'la-dolfina-david-stirling': {
       name: 'David Stirling (h)',
@@ -210,11 +210,11 @@ const FIXED = {
       photo: '/teams/la-dolfina/david-stirling.jpg',
       handicap: 10,
       titlesByTournamentId: {
-        'tortugas': 2,
+        'tortugas': 3,
         'hurlingham': 4,
         'palermo': 3
       },
-      tripleCrownTitles: 9
+      tripleCrownTitles: 10
     },
     'la-dolfina-pablo-mac-donough': {
       name: 'Pablo Mac Donough',
@@ -222,11 +222,11 @@ const FIXED = {
       photo: '/teams/la-dolfina/pablo-mac-donough.jpg',
       handicap: 10,
       titlesByTournamentId: {
-        'tortugas': 7,
+        'tortugas': 8,
         'hurlingham': 8,
         'palermo': 5
       },
-      tripleCrownTitles: 20
+      tripleCrownTitles: 21
     },
     'la-dolfina-juan-martin-nero': {
       name: 'Juan Martin Nero',
@@ -234,11 +234,11 @@ const FIXED = {
       photo: '/teams/la-dolfina/juan-martin-nero.jpg',
       handicap: 10,
       titlesByTournamentId: {
-        'tortugas': 5,
+        'tortugas': 6,
         'hurlingham': 6,
         'palermo': 5
       },
-      tripleCrownTitles: 16
+      tripleCrownTitles: 17
     },
     'las-monjitas-ignacio-toccalino': {
       name: 'Ignacio Toccalino',
@@ -556,11 +556,11 @@ const FIXED = {
       ],
       handicap: 40,
       titlesByTournamentId: {
-        'tortugas': 2,
+        'tortugas': 3,
         'hurlingham': 8,
         'palermo': 8
       },
-      tripleCrownTitles: 18
+      tripleCrownTitles: 19
     }
   }
 };
