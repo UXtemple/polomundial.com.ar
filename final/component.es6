@@ -2,8 +2,9 @@ import { Action, Panel } from 'panels-ui';
 import { alignItemsCenter, alignSelfFlexStart, flex1, flexDirectionRow, justifyContentSpaceBetween } from 'browser-vendor-prefix';
 import { BLUE, BLUE_TRANSPARENT, DARK_GREY, FONT, FONT_LIGHT, WHITE, WHITE_TRANSPARENT_85 } from '../style';
 import { connect } from 'react-redux';
+import { getFinal } from '../finals/actions';
 import getGroupId from '../group/get-group-id';
-import React from 'react';
+import React, { Component } from 'react';
 import Sponsor from '../widgets/sponsor';
 
 const Dot = props => <div style={{...props.style, ...style.dot}} />;
@@ -48,7 +49,7 @@ export const Match = props => {
   let chukkers;
 
   if (props.final.active) {
-    chukkers = props.final.chukkers.map((chukker, i) => <Chukker key={i} {...chukker} playersById={props.playersById} />);
+    chukkers = props.final.chukkers.map((chukker, i) => chukker.active && <Chukker key={i} {...chukker} playersById={props.playersById} />);
   }
 
   return (
@@ -89,21 +90,33 @@ export const Match = props => {
   );
 };
 
-export const Final = props => {
-  return (
-    <Panel width={props.width} style={style.panel}>
-      <h1 style={style.title}>
-        <span>{props.club.name}</span>
-        <span>la final</span>
-      </h1>
-      <Sponsor {...props.sponsor} colour='BLUE' style={style.sponsor} />
+export class Final extends Component {
+  componentDidMount() {
+    this.props.dispatch(getFinal());
 
-      <h2 style={style.live}>{!props.final.done && 'Seguimiento en vivo'}</h2>
+    this.interval = setInterval(() => this.props.dispatch(getFinal()), 60*1000);
+  }
 
-      <Match {...props.match} teamsById={props.teamsById} final={props.final} playersById={props.playersById} />
-    </Panel>
-  );
-};
+  componentWillUnmount() {
+    clearInterval(this.interval);
+  }
+
+  render() {
+    return (
+      <Panel width={this.props.width} style={style.panel}>
+        <h1 style={style.title}>
+          <span>{this.props.club.name}</span>
+          <span>la final</span>
+        </h1>
+        <Sponsor {...this.props.sponsor} colour='BLUE' style={style.sponsor} />
+
+        <h2 style={style.live}>{!this.props.final.done && 'Seguimiento en vivo'}</h2>
+
+        <Match {...this.props.match} teamsById={this.props.teamsById} final={this.props.final} playersById={this.props.playersById} />
+      </Panel>
+    );
+  }
+}
 
 const style = {
   chukker: {

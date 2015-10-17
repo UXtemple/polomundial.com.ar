@@ -15,6 +15,7 @@ $BIN/browserify --debug --verbose \
   --external react-redux \
   --external redux \
   --external redux-logger \
+  --external redux-promise \
   --external redux-thunk \
   --ignore **/node_modules/**,**/__tests__/** \
   --require $SRC/index:$APP \
