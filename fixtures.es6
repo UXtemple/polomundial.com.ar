@@ -4,11 +4,11 @@ const FIXED = {
       heading: 'Martes 20/10 - Partido 1 - Zona A - 14:00',
       team1: {
         id: 'la-dolfina',
-        score: 0
+        score: 22
       },
       team2: {
         id: 'washington',
-        score: 0
+        score: 12
       }
     },
     'hurlingham-la-aguada-las-monjitas': {
@@ -44,21 +44,21 @@ const FIXED = {
         score: 0
       }
     },
-    'hurlingham-ganador-partido-2-perdedor-partido-1': {
+    'hurlingham-ganador-partido-2-washington': {
       heading: 'Viernes 23/10 - Partido 5 - Zona A - 14:00',
       team1: {
         id: 'ganador p. 2',
         score: 0
       },
       team2: {
-        id: 'perdedor p. 1',
+        id: 'washington',
         score: 0
       }
     },
-    'hurlingham-ganador-partido-1-perdedor-partido-2': {
+    'hurlingham-la-dolfina-perdedor-partido-2': {
       heading: 'Viernes 23/10 - Partido 6 - Zona A - 16:00',
       team1: {
-        id: 'ganador p. 1',
+        id: 'la-dolfina',
         score: 0
       },
       team2: {
@@ -88,10 +88,10 @@ const FIXED = {
         score: 0
       }
     },
-    'hurlingham-perdedor-partido-1-perdedor-partido-2': {
+    'hurlingham-washington-perdedor-partido-2': {
       heading: 'Sábado 31/10 - Partido 9 - Zona A - 14:00',
       team1: {
-        id: 'perdedor p. 1',
+        id: 'washington',
         score: 0
       },
       team2: {
@@ -99,10 +99,10 @@ const FIXED = {
         score: 0
       }
     },
-    'hurlingham-ganador-partido-1-ganador-partido-2': {
+    'hurlingham-la-dolfina-ganador-partido-2': {
       heading: 'Sábado 31/10 - Partido 10 - Zona A - 16:00',
       team1: {
-        id: 'ganador p. 1',
+        id: 'la-dolfina',
         score: 0
       },
       team2: {
@@ -236,12 +236,12 @@ const FIXED = {
       'hurlingham-la-aguada-las-monjitas',
       'hurlingham-ellerstina-magual',
       'hurlingham-alegria-chapaleufu',
-      'hurlingham-ganador-partido-2-perdedor-partido-1',
-      'hurlingham-ganador-partido-1-perdedor-partido-2',
+      'hurlingham-ganador-partido-2-washington',
+      'hurlingham-la-dolfina-perdedor-partido-2',
       'hurlingham-ganador-partido-4-perdedor-partido-3',
       'hurlingham-ganador-partido-3-perdedor-partido-4',
-      'hurlingham-perdedor-partido-1-perdedor-partido-2',
-      'hurlingham-ganador-partido-1-ganador-partido-2',
+      'hurlingham-washington-perdedor-partido-2',
+      'hurlingham-la-dolfina-ganador-partido-2',
       'hurlingham-perdedor-partido-3-perdedor-partido-4',
       'hurlingham-ganador-partido-3-ganador-partido-4',
       'hurlingham-ganador-zona-A-ganador-zona-B',
