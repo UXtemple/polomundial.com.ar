@@ -37,11 +37,11 @@ const FIXED = {
       heading: 'Miércoles 21/10 - Partido 4 - Zona B - 16:00',
       team1: {
         id: 'alegria',
-        score: 0
+        score: 19
       },
       team2: {
         id: 'chapaleufu',
-        score: 0
+        score: 18
       }
     },
     'hurlingham-la-aguada-washington': {
@@ -66,10 +66,10 @@ const FIXED = {
         score: 0
       }
     },
-    'hurlingham-ganador-partido-4-magual': {
+    'hurlingham-alegria-magual': {
       heading: 'Sábado 24/10 - Partido 7 - Zona B - 14:00',
       team1: {
-        id: 'ganador p. 4',
+        id: 'alegria',
         score: 0
       },
       team2: {
@@ -77,14 +77,14 @@ const FIXED = {
         score: 0
       }
     },
-    'hurlingham-ellerstina-perdedor-partido-4': {
+    'hurlingham-ellerstina-chapaleufu': {
       heading: 'Sábado 24/10 - Partido 8 - Zona B - 16:00',
       team1: {
         id: 'ellerstina',
         score: 0
       },
       team2: {
-        id: 'perdedor p. 4',
+        id: 'chapaleufu',
         score: 0
       }
     },
@@ -110,25 +110,25 @@ const FIXED = {
         score: 0
       }
     },
-    'hurlingham-magual-perdedor-partido-4': {
+    'hurlingham-magual-chapaleufu': {
       heading: 'Domingo 01/11 - Partido 11 - Zona B - 14:00',
       team1: {
         id: 'magual',
         score: 0
       },
       team2: {
-        id: 'perdedor p. 4',
+        id: 'chapaleufu',
         score: 0
       }
     },
-    'hurlingham-ellerstina-ganador-partido-4': {
+    'hurlingham-ellerstina-alegria': {
       heading: 'Domingo 01/11 - Partido 12 - Zona B - 16:00',
       team1: {
         id: 'ellerstina',
         score: 0
       },
       team2: {
-        id: 'ganador p. 4',
+        id: 'alegria',
         score: 0
       }
     },
@@ -238,12 +238,12 @@ const FIXED = {
       'hurlingham-alegria-chapaleufu',
       'hurlingham-la-aguada-washington',
       'hurlingham-la-dolfina-las-monjitas',
-      'hurlingham-ganador-partido-4-magual',
-      'hurlingham-ellerstina-perdedor-partido-4',
+      'hurlingham-alegria-magual',
+      'hurlingham-ellerstina-chapaleufu',
       'hurlingham-washington-las-monjitas',
       'hurlingham-la-dolfina-la-aguada',
-      'hurlingham-magual-perdedor-partido-4',
-      'hurlingham-ellerstina-ganador-partido-4',
+      'hurlingham-magual-chapaleufu',
+      'hurlingham-ellerstina-alegria',
       'hurlingham-ganador-zona-A-ganador-zona-B',
     ]
   }
