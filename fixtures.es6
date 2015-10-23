@@ -48,22 +48,22 @@ const FIXED = {
       heading: 'Viernes 23/10 - Partido 5 - Zona A - 14:00',
       team1: {
         id: 'la-aguada',
-        score: 0
+        score: 12
       },
       team2: {
         id: 'washington',
-        score: 0
+        score: 13
       }
     },
     'hurlingham-la-dolfina-las-monjitas': {
       heading: 'Viernes 23/10 - Partido 6 - Zona A - 16:00',
       team1: {
         id: 'la-dolfina',
-        score: 0
+        score: 18
       },
       team2: {
         id: 'las-monjitas',
-        score: 0
+        score: 7
       }
     },
     'hurlingham-alegria-magual': {
