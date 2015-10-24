@@ -70,22 +70,22 @@ const FIXED = {
       heading: 'Sábado 24/10 - Partido 7 - Zona B - 14:00',
       team1: {
         id: 'alegria',
-        score: 0
+        score: 15
       },
       team2: {
         id: 'magual',
-        score: 0
+        score: 14
       }
     },
     'hurlingham-ellerstina-chapaleufu': {
       heading: 'Sábado 24/10 - Partido 8 - Zona B - 16:00',
       team1: {
         id: 'ellerstina',
-        score: 0
+        score: 17
       },
       team2: {
         id: 'chapaleufu',
-        score: 0
+        score: 10
       }
     },
     'hurlingham-washington-las-monjitas': {
