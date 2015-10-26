@@ -48,7 +48,7 @@ const socialLinks = [{
   href: 'https://twitter.com/EdiMundial'
 }, {
   name: 'instagram',
-  href: 'https://instagram.com/edimundial'
+  href: 'https://instagram.com/editorialmundial'
 }];
 
 export const Home = props => (
