@@ -1,5 +1,148 @@
 const FIXED = {
   byId: {
+    'palermo-la-dolfina-magual': {
+      heading: 'Viernes 20/11 - Partido 1 - Zona A - 14:00',
+      team1: {
+        id: 'la-dolfina',
+        score: 0
+      },
+      team2: {
+        id: 'magual',
+        score: 0
+      }
+    },
+    'palermo-alegría-la-aguada': {
+      heading: 'Viernes 20/11 - Partido 2 - Zona A - 16:30',
+      team1: {
+        id: 'alegría',
+        score: 0
+      },
+      team2: {
+        id: 'la-aguada',
+        score: 0
+      }
+    },
+    'palermo-ellerstina-washington': {
+      heading: 'Sábado 21/11 - Partido 3 - Zona B - 14:00',
+      team1: {
+        id: 'ellerstina',
+        score: 0
+      },
+      team2: {
+        id: 'washington',
+        score: 0
+      }
+    },
+    'palermo-las-monjitas-chapaleufu': {
+      heading: 'Sábado 21/11 - Partido 4 - Zona B - 16:30',
+      team1: {
+        id: 'las-monjitas',
+        score: 0
+      },
+      team2: {
+        id: 'chapaleufu',
+        score: 0
+      }
+    },
+    'palermo-ganador-partido-2-perdedor-partido-1': {
+      heading: 'Sábado 28/11 - Partido 5 - Zona A - 14:00',
+      team1: {
+        id: 'ganador-partido-2',
+        score: 0
+      },
+      team2: {
+        id: 'perdedor-partido-1',
+        score: 0
+      }
+    },
+    'palermo-ganador-partido-1-perdedor-partido-2': {
+      heading: 'Sábado 28/11 - Partido 6 - Zona A - 16:30',
+      team1: {
+        id: 'ganador-partido-1',
+        score: 0
+      },
+      team2: {
+        id: 'perdedor-partido-2',
+        score: 0
+      }
+    },
+    'palermo-ganador-partido-4-perdedor-partido-3': {
+      heading: 'Domingo 29/11 - Partido 7 - Zona B - 14:00',
+      team1: {
+        id: 'ganador-partido-4',
+        score: 0
+      },
+      team2: {
+        id: 'perdedor-partido-3',
+        score: 0
+      }
+    },
+    'palermo-ganador-partido-3-perdedor-partido-4': {
+      heading: 'Domingo 29/11 - Partido 8 - Zona B - 16:30',
+      team1: {
+        id: 'ganador-partido-3',
+        score: 0
+      },
+      team2: {
+        id: 'perdedor-partido-4',
+        score: 0
+      }
+    },
+    'palermo-perdedor-partido-1-perdedor-partido-2': {
+      heading: 'Sábado 5/12 - Partido 9 - Zona A - 14:00',
+      team1: {
+        id: 'perdedor-partido-1',
+        score: 0
+      },
+      team2: {
+        id: 'perdedor-partido-2',
+        score: 0
+      }
+    },
+    'palermo-ganador-partido-1-ganador-partido-2': {
+      heading: 'Sábado 5/12 - Partido 10 - Zona A - 16:30',
+      team1: {
+        id: 'ganador-partido-1',
+        score: 0
+      },
+      team2: {
+        id: 'ganador-partido-2',
+        score: 0
+      }
+    },
+    'palermo-perdedor-partido-3-perdedor-partido-4': {
+      heading: 'Domingo 6/12 - Partido 11 - Zona B - 14:00',
+      team1: {
+        id: 'perdedor-partido-3',
+        score: 0
+      },
+      team2: {
+        id: 'perdedor-partido-4',
+        score: 0
+      }
+    },
+    'palermo-ganador-partido-3-ganador-partido-4': {
+      heading: 'Domingo 6/12 - Partido 12 - Zona B - 16:30',
+      team1: {
+        id: 'ganador-partido-3',
+        score: 0
+      },
+      team2: {
+        id: 'ganador-partido-4',
+        score: 0
+      }
+    },
+    'palermo-ganador-zona-A-ganador-zona-B': {
+      heading: 'Sábado 12/12 - Final - 16:30',
+      team1: {
+        id: 'ganador zona A',
+        score: 0
+      },
+      team2: {
+        id: 'ganador zona B',
+        score: 0
+      },
+    {
     'hurlingham-la-dolfina-washington': {
       heading: 'Martes 20/10 - Partido 1 - Zona A - 14:00',
       team1: {
@@ -245,6 +388,21 @@ const FIXED = {
       'hurlingham-magual-chapaleufu',
       'hurlingham-ellerstina-alegria',
       'hurlingham-ganador-zona-A-ganador-zona-B',
+    ],
+    'palermo': [
+      'palermo-la-dolfina-magual',
+      'palermo-alegría-la-aguada',
+      'palermo-ellerstina-washington',
+      'palermo-las-monjitas-chapaleufu',
+      'palermo-ganador-partido-2-perdedor-partido-1',
+      'palermo-ganador-partido-1-perdedor-partido-2',
+      'palermo-ganador-partido-4-perdedor-partido-3',
+      'palermo-ganador-partido-3-perdedor-partido-4',
+      'palermo-perdedor-partido-1-perdedor-partido-2',
+      'palermo-ganador-partido-1-ganador-partido-2',
+      'palermo-perdedor-partido-3-perdedor-partido-4',
+      'palermo-ganador-partido-3-ganador-partido-4',
+      'palermo-ganador-zona-A-ganador-zona-B',
     ]
   }
 };
