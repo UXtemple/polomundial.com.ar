@@ -232,7 +232,7 @@ const FIXED = {
       }
     },
     'hurlingham-washington-las-monjitas': {
-      heading: 'Sábado 31/10 - Partido 9 - Zona A - 14:00',
+      heading: 'REPROGRAMADO - Partido 9 - Zona A',
       team1: {
         id: 'washington',
         score: 0
@@ -254,7 +254,7 @@ const FIXED = {
       }
     },
     'hurlingham-magual-chapaleufu': {
-      heading: 'Domingo 01/11 - Partido 11 - Zona B - 14:00',
+      heading: 'REPROGRAMADO - Partido 11 - Zona B',
       team1: {
         id: 'magual',
         score: 0
