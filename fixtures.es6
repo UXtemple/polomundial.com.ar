@@ -246,11 +246,11 @@ const FIXED = {
       heading: 'Sábado 31/10 - Partido 10 - Zona A - 16:00',
       team1: {
         id: 'la-dolfina',
-        score: 0
+        score: 16
       },
       team2: {
         id: 'la-aguada',
-        score: 0
+        score: 10
       }
     },
     'hurlingham-magual-chapaleufu': {
