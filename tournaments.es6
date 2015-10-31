@@ -120,7 +120,7 @@ const FIXED = {
       sponsorId: 'sancor-seguros'
     },
     'palermo': {
-      active: false,
+      active: true,
       id: 'palermo',
       image: '/palermo.jpg',
       name: 'Palermo',

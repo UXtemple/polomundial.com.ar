@@ -142,7 +142,7 @@ const FIXED = {
         id: 'ganador zona B',
         score: 0
       },
-    {
+    },
     'hurlingham-la-dolfina-washington': {
       heading: 'Martes 20/10 - Partido 1 - Zona A - 14:00',
       team1: {
