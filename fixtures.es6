@@ -268,21 +268,21 @@ const FIXED = {
       heading: 'Domingo 01/11 - Partido 12 - Zona B - 16:00',
       team1: {
         id: 'ellerstina',
-        score: 0
+        score: 19
       },
       team2: {
         id: 'alegria',
-        score: 0
+        score: 11
       }
     },
     'hurlingham-ganador-zona-A-ganador-zona-B': {
       heading: 'Sábado 07/11 - Final - 16:00',
       team1: {
-        id: 'ganador zona A',
+        id: 'la-dolfina',
         score: 0
       },
       team2: {
-        id: 'ganador zona B',
+        id: 'ellerstina',
         score: 0
       }
     },
