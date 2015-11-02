@@ -235,11 +235,11 @@ const FIXED = {
       heading: 'Lunes 02/11 - Partido 9 - Zona A- 12:00',
       team1: {
         id: 'washington',
-        score: 0
+        score: 12
       },
       team2: {
         id: 'las-monjitas',
-        score: 0
+        score: 13
       }
     },
     'hurlingham-la-dolfina-la-aguada': {
