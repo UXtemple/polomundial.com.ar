@@ -257,11 +257,11 @@ const FIXED = {
       heading: 'Lunes 02/11 - Partido 11 - Zona B - 14:00',
       team1: {
         id: 'magual',
-        score: 0
+        score: 10
       },
       team2: {
         id: 'chapaleufu',
-        score: 0
+        score: 11
       }
     },
     'hurlingham-ellerstina-alegria': {
