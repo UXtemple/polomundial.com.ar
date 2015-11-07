@@ -1,7 +1,10 @@
 export const GET_FINAL = 'polomundial.com.ar/finals/GET_FINAL';
-export function getFinal() {
+export function getFinal(tournamentId) {
   return {
     type: GET_FINAL,
-    payload: fetch('https://uxtemple.iriscouch.com/polomundialcomar/a2f39e516be708510456656463000424').then(r => r.json())
+    payload: fetch(`https://db.uxtemple.com/polomundialcomar/final-${tournamentId}`).then(r => r.json()),
+    meta: {
+      tournamentId
+    }
   }
 }

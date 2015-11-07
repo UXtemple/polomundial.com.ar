@@ -40,7 +40,7 @@ export default function reducer(state=FIXED, action={}) {
         isReady: true,
         byTournamentId: {
           ...state.byTournamentId,
-          tortugas: action.payload
+          [action.meta.tournamentId]: action.payload
         }
       };
     }

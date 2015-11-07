@@ -92,9 +92,9 @@ export const Match = props => {
 
 export class Final extends Component {
   componentDidMount() {
-    this.props.dispatch(getFinal());
+    this.props.dispatch(getFinal(this.props.tournamentId));
 
-    this.interval = setInterval(() => this.props.dispatch(getFinal()), 10*1000);
+    this.interval = setInterval(() => this.props.dispatch(getFinal(this.props.tournamentId)), 10*1000);
   }
 
   componentWillUnmount() {

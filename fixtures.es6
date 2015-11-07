@@ -275,7 +275,7 @@ const FIXED = {
         score: 11
       }
     },
-    'hurlingham-ganador-zona-A-ganador-zona-B': {
+    'hurlingham-la-dolfina-ellerstina': {
       heading: 'Sábado 07/11 - Final - 16:00',
       team1: {
         id: 'la-dolfina',
@@ -387,7 +387,7 @@ const FIXED = {
       'hurlingham-la-dolfina-la-aguada',
       'hurlingham-magual-chapaleufu',
       'hurlingham-ellerstina-alegria',
-      'hurlingham-ganador-zona-A-ganador-zona-B',
+      'hurlingham-la-dolfina-ellerstina',
     ],
     'palermo': [
       'palermo-la-dolfina-magual',
