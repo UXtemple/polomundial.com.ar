@@ -279,11 +279,11 @@ const FIXED = {
       heading: 'Sábado 07/11 - Final - 16:00',
       team1: {
         id: 'la-dolfina',
-        score: 0
+        score: 15
       },
       team2: {
         id: 'ellerstina',
-        score: 0
+        score: 14
       }
     },
     'tortugas-alegria-chapaleufu': {
