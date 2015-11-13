@@ -199,10 +199,10 @@ const FIXED = {
       handicap: 10,
       titlesByTournamentId: {
         'tortugas': 6,
-        'hurlingham': 11,
+        'hurlingham': 12,
         'palermo': 11
       },
-      tripleCrownTitles: 28
+      tripleCrownTitles: 29
     },
     'la-dolfina-david-stirling': {
       name: 'David Stirling (h)',
@@ -211,10 +211,10 @@ const FIXED = {
       handicap: 10,
       titlesByTournamentId: {
         'tortugas': 3,
-        'hurlingham': 4,
+        'hurlingham': 5,
         'palermo': 3
       },
-      tripleCrownTitles: 10
+      tripleCrownTitles: 11
     },
     'la-dolfina-pablo-mac-donough': {
       name: 'Pablo Mac Donough',
@@ -223,10 +223,10 @@ const FIXED = {
       handicap: 10,
       titlesByTournamentId: {
         'tortugas': 8,
-        'hurlingham': 8,
+        'hurlingham': 9,
         'palermo': 5
       },
-      tripleCrownTitles: 21
+      tripleCrownTitles: 22
     },
     'la-dolfina-juan-martin-nero': {
       name: 'Juan Martin Nero',
@@ -235,10 +235,10 @@ const FIXED = {
       handicap: 10,
       titlesByTournamentId: {
         'tortugas': 6,
-        'hurlingham': 6,
+        'hurlingham': 7,
         'palermo': 5
       },
-      tripleCrownTitles: 17
+      tripleCrownTitles: 18
     },
     'las-monjitas-ignacio-toccalino': {
       name: 'Ignacio Toccalino',
@@ -557,7 +557,7 @@ const FIXED = {
       handicap: 40,
       titlesByTournamentId: {
         'tortugas': 3,
-        'hurlingham': 8,
+        'hurlingham': 9,
         'palermo': 8
       },
       tripleCrownTitles: 19
