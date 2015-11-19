@@ -12,7 +12,7 @@ const FIXED = {
       }
     },
     'palermo-alegría-la-aguada': {
-      heading: 'Viernes 20/11 - Partido 2 - Zona A - 16:30',
+      heading: 'Lunes 23/11 - Partido 2 - Zona A - 16:30',
       team1: {
         id: 'alegría',
         score: 0
@@ -23,7 +23,7 @@ const FIXED = {
       }
     },
     'palermo-ellerstina-washington': {
-      heading: 'Sábado 21/11 - Partido 3 - Zona B - 14:00',
+      heading: 'Martes 24/11 - Partido 3 - Zona B - 14:00',
       team1: {
         id: 'ellerstina',
         score: 0
@@ -34,7 +34,7 @@ const FIXED = {
       }
     },
     'palermo-las-monjitas-chapaleufu': {
-      heading: 'Sábado 21/11 - Partido 4 - Zona B - 16:30',
+      heading: 'Martes 24/11 - Partido 4 - Zona B - 16:30',
       team1: {
         id: 'las-monjitas',
         score: 0
