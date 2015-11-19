@@ -1,7 +1,7 @@
 const FIXED = {
   byId: {
     'palermo-la-dolfina-magual': {
-      heading: 'Viernes 20/11 - Partido 1 - Zona A - 14:00',
+      heading: 'Lunes 23/11 - Partido 1 - Zona A - 14:00',
       team1: {
         id: 'la-dolfina',
         score: 0
