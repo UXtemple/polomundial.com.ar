@@ -15,11 +15,11 @@ const FIXED = {
       heading: 'Lunes 23/11 - Partido 2 - Zona A - 16:30',
       team1: {
         id: 'alegría',
-        score: 0
+        score: 17
       },
       team2: {
         id: 'la-aguada',
-        score: 0
+        score: 22
       }
     },
     'palermo-ellerstina-washington': {
@@ -44,10 +44,10 @@ const FIXED = {
         score: 0
       }
     },
-    'palermo-ganador-partido-2-magual': {
+    'palermo-la-aguada-magual': {
       heading: 'Sábado 28/11 - Partido 5 - Zona A - 14:00',
       team1: {
-        id: 'ganador-partido-2',
+        id: 'la-aguada',
         score: 0
       },
       team2: {
@@ -55,14 +55,14 @@ const FIXED = {
         score: 0
       }
     },
-    'palermo-la-dolfina-perdedor-partido-2': {
+    'palermo-la-dolfina-alegria': {
       heading: 'Sábado 28/11 - Partido 6 - Zona A - 16:30',
       team1: {
         id: 'la-dolfina',
         score: 0
       },
       team2: {
-        id: 'perdedor-partido-2',
+        id: 'alegria',
         score: 0
       }
     },
@@ -88,25 +88,25 @@ const FIXED = {
         score: 0
       }
     },
-    'palermo-magual-perdedor-partido-2': {
+    'palermo-magual-alegria': {
       heading: 'Sábado 5/12 - Partido 9 - Zona A - 14:00',
       team1: {
         id: 'magual',
         score: 0
       },
       team2: {
-        id: 'perdedor-partido-2',
+        id: 'alegria',
         score: 0
       }
     },
-    'palermo-la-dolfina-ganador-partido-2': {
+    'palermo-la-dolfina-la-aguada': {
       heading: 'Sábado 5/12 - Partido 10 - Zona A - 16:30',
       team1: {
         id: 'la-dolfina',
         score: 0
       },
       team2: {
-        id: 'ganador-partido-2',
+        id: 'la-aguada',
         score: 0
       }
     },
@@ -394,12 +394,12 @@ const FIXED = {
       'palermo-alegría-la-aguada',
       'palermo-ellerstina-washington',
       'palermo-las-monjitas-chapaleufu',
-      'palermo-ganador-partido-2-magual',
-      'palermo-la-dolfina-perdedor-partido-2',
+      'palermo-la-aguada-magual',
+      'palermo-la-dolfina-alegria',
       'palermo-ganador-partido-4-perdedor-partido-3',
       'palermo-ganador-partido-3-perdedor-partido-4',
-      'palermo-magual-perdedor-partido-2',
-      'palermo-la-dolfina-ganador-partido-2',
+      'palermo-magual-alegria',
+      'palermo-la-dolfina-la-aguada',
       'palermo-perdedor-partido-3-perdedor-partido-4',
       'palermo-ganador-partido-3-ganador-partido-4',
       'palermo-ganador-zona-A-ganador-zona-B',
