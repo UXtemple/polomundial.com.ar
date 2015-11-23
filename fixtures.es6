@@ -4,11 +4,11 @@ const FIXED = {
       heading: 'Lunes 23/11 - Partido 1 - Zona A - 14:00',
       team1: {
         id: 'la-dolfina',
-        score: 0
+        score: 18
       },
       team2: {
         id: 'magual',
-        score: 0
+        score: 7
       }
     },
     'palermo-alegría-la-aguada': {
@@ -51,14 +51,14 @@ const FIXED = {
         score: 0
       },
       team2: {
-        id: 'perdedor-partido-1',
+        id: 'magual',
         score: 0
       }
     },
     'palermo-ganador-partido-1-perdedor-partido-2': {
       heading: 'Sábado 28/11 - Partido 6 - Zona A - 16:30',
       team1: {
-        id: 'ganador-partido-1',
+        id: 'la-dolfina',
         score: 0
       },
       team2: {
@@ -91,7 +91,7 @@ const FIXED = {
     'palermo-perdedor-partido-1-perdedor-partido-2': {
       heading: 'Sábado 5/12 - Partido 9 - Zona A - 14:00',
       team1: {
-        id: 'perdedor-partido-1',
+        id: 'magual',
         score: 0
       },
       team2: {
@@ -102,7 +102,7 @@ const FIXED = {
     'palermo-ganador-partido-1-ganador-partido-2': {
       heading: 'Sábado 5/12 - Partido 10 - Zona A - 16:30',
       team1: {
-        id: 'ganador-partido-1',
+        id: 'la-dolfina',
         score: 0
       },
       team2: {
