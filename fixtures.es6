@@ -44,7 +44,7 @@ const FIXED = {
         score: 0
       }
     },
-    'palermo-ganador-partido-2-perdedor-partido-1': {
+    'palermo-ganador-partido-2-magual': {
       heading: 'Sábado 28/11 - Partido 5 - Zona A - 14:00',
       team1: {
         id: 'ganador-partido-2',
@@ -55,7 +55,7 @@ const FIXED = {
         score: 0
       }
     },
-    'palermo-ganador-partido-1-perdedor-partido-2': {
+    'palermo-la-dolfina-perdedor-partido-2': {
       heading: 'Sábado 28/11 - Partido 6 - Zona A - 16:30',
       team1: {
         id: 'la-dolfina',
@@ -88,7 +88,7 @@ const FIXED = {
         score: 0
       }
     },
-    'palermo-perdedor-partido-1-perdedor-partido-2': {
+    'palermo-magual-perdedor-partido-2': {
       heading: 'Sábado 5/12 - Partido 9 - Zona A - 14:00',
       team1: {
         id: 'magual',
@@ -99,7 +99,7 @@ const FIXED = {
         score: 0
       }
     },
-    'palermo-ganador-partido-1-ganador-partido-2': {
+    'palermo-la-dolfina-ganador-partido-2': {
       heading: 'Sábado 5/12 - Partido 10 - Zona A - 16:30',
       team1: {
         id: 'la-dolfina',
@@ -394,12 +394,12 @@ const FIXED = {
       'palermo-alegría-la-aguada',
       'palermo-ellerstina-washington',
       'palermo-las-monjitas-chapaleufu',
-      'palermo-ganador-partido-2-perdedor-partido-1',
-      'palermo-ganador-partido-1-perdedor-partido-2',
+      'palermo-ganador-partido-2-magual',
+      'palermo-la-dolfina-perdedor-partido-2',
       'palermo-ganador-partido-4-perdedor-partido-3',
       'palermo-ganador-partido-3-perdedor-partido-4',
-      'palermo-perdedor-partido-1-perdedor-partido-2',
-      'palermo-ganador-partido-1-ganador-partido-2',
+      'palermo-magual-perdedor-partido-2',
+      'palermo-la-dolfina-ganador-partido-2',
       'palermo-perdedor-partido-3-perdedor-partido-4',
       'palermo-ganador-partido-3-ganador-partido-4',
       'palermo-ganador-zona-A-ganador-zona-B',
