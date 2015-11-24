@@ -37,11 +37,11 @@ const FIXED = {
       heading: 'Martes 24/11 - Partido 4 - Zona B - 16:30',
       team1: {
         id: 'las-monjitas',
-        score: 0
+        score: 17
       },
       team2: {
         id: 'chapaleufu',
-        score: 0
+        score: 15
       }
     },
     'palermo-la-aguada-magual': {
@@ -66,10 +66,10 @@ const FIXED = {
         score: 0
       }
     },
-    'palermo-ganador-partido-4-washington': {
+    'palermo-las-monjitas-washington': {
       heading: 'Domingo 29/11 - Partido 7 - Zona B - 14:00',
       team1: {
-        id: 'ganador-partido-4',
+        id: 'las-monjitas',
         score: 0
       },
       team2: {
@@ -77,14 +77,14 @@ const FIXED = {
         score: 0
       }
     },
-    'palermo-ellerstina-perdedor-partido-4': {
+    'palermo-ellerstina-chapaleufu': {
       heading: 'Domingo 29/11 - Partido 8 - Zona B - 16:30',
       team1: {
         id: 'ellerstina',
         score: 0
       },
       team2: {
-        id: 'perdedor-partido-4',
+        id: 'chapaleufu',
         score: 0
       }
     },
@@ -110,25 +110,25 @@ const FIXED = {
         score: 0
       }
     },
-    'palermo-washington-perdedor-partido-4': {
+    'palermo-washington-chapaleufu': {
       heading: 'Domingo 6/12 - Partido 11 - Zona B - 14:00',
       team1: {
         id: 'washington',
         score: 0
       },
       team2: {
-        id: 'perdedor-partido-4',
+        id: 'chapaleufu',
         score: 0
       }
     },
-    'palermo-ellerstina-ganador-partido-4': {
+    'palermo-ellerstina-las-monjitas': {
       heading: 'Domingo 6/12 - Partido 12 - Zona B - 16:30',
       team1: {
         id: 'ellerstina',
         score: 0
       },
       team2: {
-        id: 'ganador-partido-4',
+        id: 'las-monjitas',
         score: 0
       }
     },
@@ -396,12 +396,12 @@ const FIXED = {
       'palermo-las-monjitas-chapaleufu',
       'palermo-la-aguada-magual',
       'palermo-la-dolfina-alegria',
-      'palermo-ganador-partido-4-washington',
-      'palermo-ellerstina-perdedor-partido-4',
+      'palermo-las-monjitas-washington',
+      'palermo-ellerstina-chapaleufu',
       'palermo-magual-alegria',
       'palermo-la-dolfina-la-aguada',
-      'palermo-washington-perdedor-partido-4',
-      'palermo-ellerstina-ganador-partido-4',
+      'palermo-washington-chapaleufu',
+      'palermo-ellerstina-las-monjitas',
       'palermo-ganador-zona-A-ganador-zona-B',
     ]
   }
