@@ -45,7 +45,7 @@ const FIXED = {
       }
     },
     'palermo-la-aguada-magual': {
-      heading: 'Sábado 28/11 - Partido 5 - Zona A - 14:00',
+      heading: 'Lunes 30/11 - Partido 5 - Zona A - 14:00',
       team1: {
         id: 'la-aguada',
         score: 0
@@ -56,7 +56,7 @@ const FIXED = {
       }
     },
     'palermo-la-dolfina-alegria': {
-      heading: 'Sábado 28/11 - Partido 6 - Zona A - 16:30',
+      heading: 'Lunes 30/11 - Partido 6 - Zona A - 16:30',
       team1: {
         id: 'la-dolfina',
         score: 0
@@ -70,22 +70,22 @@ const FIXED = {
       heading: 'Domingo 29/11 - Partido 7 - Zona B - 14:00',
       team1: {
         id: 'las-monjitas',
-        score: 0
+        score: 11
       },
       team2: {
         id: 'washington',
-        score: 0
+        score: 8
       }
     },
     'palermo-ellerstina-chapaleufu': {
       heading: 'Domingo 29/11 - Partido 8 - Zona B - 16:30',
       team1: {
         id: 'ellerstina',
-        score: 0
+        score: 20
       },
       team2: {
         id: 'chapaleufu',
-        score: 0
+        score: 5
       }
     },
     'palermo-magual-alegria': {
