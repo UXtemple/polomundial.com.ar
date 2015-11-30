@@ -1,6 +1,6 @@
 {
   "name": "polomundial.com.ar",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "polomundial.com.ar's site on Panels",
   "main": "index.js",
   "scripts": {
