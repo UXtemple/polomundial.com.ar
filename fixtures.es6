@@ -48,11 +48,11 @@ const FIXED = {
       heading: 'Lunes 30/11 - Partido 5 - Zona A - 14:00',
       team1: {
         id: 'la-aguada',
-        score: 0
+        score: 17
       },
       team2: {
         id: 'magual',
-        score: 0
+        score: 11
       }
     },
     'palermo-la-dolfina-alegria': {
