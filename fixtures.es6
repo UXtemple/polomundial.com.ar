@@ -59,11 +59,11 @@ const FIXED = {
       heading: 'Lunes 30/11 - Partido 6 - Zona A - 16:30',
       team1: {
         id: 'la-dolfina',
-        score: 0
+        score: 16
       },
       team2: {
         id: 'alegria',
-        score: 0
+        score: 14
       }
     },
     'palermo-las-monjitas-washington': {
