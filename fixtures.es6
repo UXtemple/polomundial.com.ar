@@ -92,54 +92,54 @@ const FIXED = {
       heading: 'Sábado 5/12 - Partido 9 - Zona A - 14:00',
       team1: {
         id: 'magual',
-        score: 0
+        score: 11
       },
       team2: {
         id: 'alegria',
-        score: 0
+        score: 18
       }
     },
     'palermo-la-dolfina-la-aguada': {
       heading: 'Sábado 5/12 - Partido 10 - Zona A - 16:30',
       team1: {
         id: 'la-dolfina',
-        score: 0
+        score: 13
       },
       team2: {
         id: 'la-aguada',
-        score: 0
+        score: 10
       }
     },
     'palermo-washington-chapaleufu': {
       heading: 'Domingo 6/12 - Partido 11 - Zona B - 14:00',
       team1: {
         id: 'washington',
-        score: 0
+        score: 15
       },
       team2: {
         id: 'chapaleufu',
-        score: 0
+        score: 12
       }
     },
     'palermo-ellerstina-las-monjitas': {
       heading: 'Domingo 6/12 - Partido 12 - Zona B - 16:30',
       team1: {
         id: 'ellerstina',
-        score: 0
+        score: 16
       },
       team2: {
         id: 'las-monjitas',
-        score: 0
+        score: 12
       }
     },
-    'palermo-ganador-zona-A-ganador-zona-B': {
+    'palermo-la-dolfina-ellerstina': {
       heading: 'Sábado 12/12 - Final - 16:30',
       team1: {
-        id: 'ganador zona A',
+        id: 'la-dolfina',
         score: 0
       },
       team2: {
-        id: 'ganador zona B',
+        id: 'ellerstina',
         score: 0
       },
     },
@@ -402,7 +402,7 @@ const FIXED = {
       'palermo-la-dolfina-la-aguada',
       'palermo-washington-chapaleufu',
       'palermo-ellerstina-las-monjitas',
-      'palermo-ganador-zona-A-ganador-zona-B',
+      'palermo-la-dolfina-ellerstina',
     ]
   }
 };
